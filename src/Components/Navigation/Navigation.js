@@ -6,6 +6,7 @@ import facebook from '../../Assets/facebook.png';
 import instagram from '../../Assets/instagram.png';
 import linkedin from '../../Assets/linkedin.png';
 import RouteLink from './Link/RouteLink';
+import Banner from '../Banner/Banner';
 
 const social_links = [
     {
@@ -37,7 +38,9 @@ export default function Navigation({links}) {
     }
 
   return (
-    <nav className='Navigation'>
+    <>
+        <Banner />
+        <nav className='Navigation'>
         <div className='Navigation-Content'>
             <div className='Navigation-Content-Top'>
                 <div className='Navigation-Content-Bottom'>
@@ -49,5 +52,6 @@ export default function Navigation({links}) {
             </div>
         </div>
     </nav>
+    </>
   )
 }

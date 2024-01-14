@@ -39,8 +39,8 @@ const links = [
 function Layout() {
   return (
       <>
-        <Outlet />
         <Navigation links={links}/>
+        <Outlet />
         <Fotter />
       </>
   );
