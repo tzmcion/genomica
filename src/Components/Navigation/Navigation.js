@@ -2,30 +2,24 @@ import React from 'react'
 import SocialLink from './Link/SocialLink';
 import './Navigation.scss'
 
-import logo from '../../Assets/placeholder_logo.jpg'
 import facebook from '../../Assets/facebook.png';
 import instagram from '../../Assets/instagram.png';
-import twitter from '../../Assets/twitter.png';
-import youtube from '../../Assets/social.png';
+import linkedin from '../../Assets/linkedin.png';
 import RouteLink from './Link/RouteLink';
 
 const social_links = [
     {
         img:facebook,
-        path:"https://facebook.com"
+        path:"https://www.facebook.com/genomica.uj?locale=pl_PL"
     },
     {
         img:instagram,
-        path:"https://instagram.com"
+        path:"https://www.instagram.com/genomica_uj/?fbclid=IwAR2bTU44KCHK4jfggbvNol3QI9HEWHhQXCTZKq55ZG2NKNNZcZ8qkcVR7m4"
     },
     {
-        img:twitter,
-        path:"https://twitter.com"
+        img:linkedin,
+        path:"https://www.linkedin.com/in/genomica-student-conference-of-genetics-1500372a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
-    {
-        img:youtube,
-        path:"https://youtube.com"
-    }
 ]
 
 export default function Navigation({links}) {
@@ -46,22 +40,12 @@ export default function Navigation({links}) {
     <nav className='Navigation'>
         <div className='Navigation-Content'>
             <div className='Navigation-Content-Top'>
-                <div className='Navigation-Content-Logo'>
-                    <div className='Navigation-Content-Logo-Up'>
-                        <img src={logo} alt='logo' />
-                        <h3>Biochemistry Annual <br />Conference Metting </h3>
-                    </div>
-                    <div className='Navigation-Content-Logo-Bottom'>
-                        <h4>March 10-14 &#x2022; Spare May 10-14 <br />Jagiellonian University Krakow</h4>
-                        <h5>2010-2022 Genomica Annual Conference</h5>
-                    </div>
+                <div className='Navigation-Content-Bottom'>
+                        {renderLinks()}
                 </div>
                 <div className='Navigation-Content-SocialMedia'>
                     {render()}
                 </div>
-            </div>
-            <div className='Navigation-Content-Bottom'>
-                    {renderLinks()}
             </div>
         </div>
     </nav>

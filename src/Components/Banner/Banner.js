@@ -2,6 +2,9 @@ import React,{useState,useEffect,useRef,useCallback} from 'react';
 import './Banner.scss';
 import BackgroundAnimation from '../../Utils/BackgroundAnimation';
 
+import banner from '../../Assets/genomica.png';
+import jag from '../../Assets/jag.png';
+
 export default function Banner() {
 
   const canvas_ref = useRef(null);
@@ -56,9 +59,8 @@ export default function Banner() {
     <div className='Banner' onClick={handleClick} ref={banner_ref}>
       <canvas ref={canvas_ref} width={dimensions.width} height={500}></canvas>
       <div className='Banner-Data'>
-        <h4>Quartal Mettings of Bio-Scientists in Jagiellonian University
-          <br />Next Metting: March 10-14
-        </h4>
+        <img src={banner} alt='bann' className='genomica'/>
+        <img src={jag} alt='dad'  className='jag'/>
       </div>
     </div>
   )
