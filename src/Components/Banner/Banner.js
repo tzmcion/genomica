@@ -33,7 +33,7 @@ export default function Banner() {
 
   const create_animations = useCallback((e,pallete=null)=>{
     if(animation){
-      const pos_y = e.clientY - 250;
+      const pos_y = e.clientY;
        animation.create(e.clientX,pos_y,pallete);
     }
   },[animation]) 
@@ -42,7 +42,7 @@ export default function Banner() {
     const id = setInterval(()=>{
       const er = {
         clientX: Math.floor(Math.random()*dimensions.width),
-        clientY:900
+        clientY:Math.random() * 100 + 350
       }
       create_animations(er);
       create_animations(er);
