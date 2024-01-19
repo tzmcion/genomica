@@ -8,17 +8,23 @@ export default function staticBanner() {
     <div className='Static-Banner'>
         <div className='Static-Banner-Left'>
           <div className='Static-Banner-Left-Data'>
-            <h2>Genomica is back in 2024!</h2>
-            <h1>Welcome to the 4th annual biochemical conference </h1>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            <h2>As the New Year unfolds, we announce the</h2>
+            <h1>𝟴𝘁𝗵 𝗲𝗱𝗶𝘁𝗶𝗼𝗻 𝗼𝗳 𝘁𝗵𝗲 𝗚𝗲𝗻𝗲𝘁𝗶𝗰𝘀 𝗖𝗼𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗲 "𝗚𝗲𝗻𝗼𝗺𝗶𝗰𝗮"</h1>
+            <p>The whole team is actively working on preparing the event, and we can now confirm its dates. Join us from May 17-19, 2024, at the Institute of Zoology, Jagiellonian University in Krakow.
+              Genomica Conference is an excellent opportunity to broaden your horizons, networking, and experience active participation in the science conference.
+              We encourage you to follow our social media for more information.</p>
             <br />
-            <p>Register now and become a speaker!</p>
+            <p>The "Genomica" Student Conference of Genetics is an annual event gathering students, specialists, and outstanding scientists interested in genetics. It provides a unique opportunity to broaden your horizons, networking, and experience active participation in the science conference.
+              From May 17th to 19th this year, during the 8th edition of the "Genomica” Student Conference of Genetics, you will have the chance to share your passion, discuss fascinating research projects, and inspire each other. This event not only enhances knowledge but also creates a space for building a community of young scientists.
+              We invite you to participate in this unique event where science meets passion, and inspiration arises from engaging dialogues. Reserve your time for the May days of the 8th edition of the "Genomica" Conference!</p>
+            <br />
+              <p>See you there! 👋</p>
           </div>
         </div>
         <div className='Static-Banner-Right'>
           <div className='Static-Banner-Right-Container'>
             <img src={photo} alt='logo' />
-            <h3>17 - 25 May <span>Krakow, Poland</span></h3>
+            <h3>17 - 19 May <span>Krakow, Poland</span></h3>
           </div>
         </div>
     </div>

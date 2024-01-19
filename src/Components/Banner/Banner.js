@@ -4,6 +4,7 @@ import BackgroundAnimation from '../../Utils/BackgroundAnimation';
 
 import banner from '../../Assets/genomica.png';
 import jag from '../../Assets/jag.png';
+import bg from '../../Assets/bggrad.png';
 
 export default function Banner() {
 
@@ -56,7 +57,7 @@ export default function Banner() {
   }
 
   return (
-    <div className='Banner' onClick={handleClick} ref={banner_ref}>
+    <div className='Banner' style={{backgroundImage:`url(${bg})`}} onClick={handleClick} ref={banner_ref}>
       <canvas ref={canvas_ref} width={dimensions.width} height={500}></canvas>
       <div className='Banner-Data'>
         <img src={banner} alt='bann' className='genomica'/>
