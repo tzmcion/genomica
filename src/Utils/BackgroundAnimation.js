@@ -1,5 +1,5 @@
 class Field{
-    constructor(x,y,velocity_x,velocity_y,side,color){
+    constructor(x,y,velocity_x,velocity_y,side,color,scaling_speed,rand){
         this.x=x;
         this.y=y;
         this.y_pos = 5;
@@ -7,18 +7,21 @@ class Field{
         this.velocity_x=0;
         this.velocity_y=velocity_y;
         this.multiplier=side;
+        this.scaling =  rand ? Math.random() : 1;
+        this.scaling_speed = scaling_speed;
         this.color=color;
         this.created = Date.now();
     }
 
     render(ctx){
         const now = Date.now();
-        const x_pos = this.x + this.velocity_x + Math.sin((now - this.created)/200)*15*this.multiplier;
+        const x_pos = this.x + this.velocity_x*this.scaling*0.9 + (Math.sin((now - this.created)/200)*15*this.multiplier)*(this.scaling*0.9);
         this.y_pos = this.y- ((now - this.created)/12)*this.velocity_y;
         this.velocity_x += this.adder;
+        this.scaling += this.scaling_speed;
         ctx.fillStyle = this.color;
         ctx.beginPath();
-        ctx.arc(x_pos,this.y_pos,2,0,Math.PI*2);
+        ctx.arc(x_pos,this.y_pos,Math.abs(1.7 * this.scaling),0,Math.PI*2);
         ctx.fill();
         ctx.closePath();
     }
@@ -33,12 +36,14 @@ class BackgroundAnimation{
      * @param {number} width 
      * @param {number} height 
      */
-    constructor(ctx,width,height){
+    constructor(ctx,width,height,random){
         this.ctx=ctx;
         this.width=width;
         this.height=height;
         this.blocks = [];
+        this.intervals= [];
         this.animation = 0;
+        this.random = random;
     }
 
     /**
@@ -46,23 +51,23 @@ class BackgroundAnimation{
      * @param {number} x_pos 
      * @param {number} y_pos 
      */
-    create(x_pos,y_pos,pallete=null){
+    create(x_pos,y_pos,scaling_speed,pallete=null){
         const velocity_y = Math.random() > 0.5 ? 1:1; 
         const velocity_x = Math.random()*3  * (Math.random() > 0.5 ? 1:-1); 
         const interval_id = setInterval(()=>{
-            const color_one = Math.floor(Math.random()*2); 
+            const color_one = Math.floor(Math.random()*2);
             if(pallete){
-                this.blocks.push(new Field(x_pos,y_pos,velocity_x,velocity_y,1,pallete[color_one]));
-                this.blocks.push(new Field(x_pos,y_pos,velocity_x,velocity_y,-1,pallete[color_one+2]));
+                this.blocks.push(new Field(x_pos,y_pos,velocity_x,velocity_y,1,pallete[color_one],scaling_speed,this.random));
+                this.blocks.push(new Field(x_pos,y_pos,velocity_x,velocity_y,-1,pallete[color_one+2],scaling_speed,this.random));
             }else{
-                this.blocks.push(new Field(x_pos,y_pos,velocity_x,velocity_y,1,BackgroundAnimation.colors[color_one]));
-                this.blocks.push(new Field(x_pos,y_pos,velocity_x,velocity_y,-1,BackgroundAnimation.colors[color_one+2]));
+                this.blocks.push(new Field(x_pos,y_pos,velocity_x,velocity_y,1,BackgroundAnimation.colors[color_one],scaling_speed,this.random));
+                this.blocks.push(new Field(x_pos,y_pos,velocity_x,velocity_y,-1,BackgroundAnimation.colors[color_one+2],scaling_speed,this.random));
             }
         },100);
 
         setTimeout(()=>{
             clearInterval(interval_id);
-        },Math.floor(Math.random()*3000 + 500))
+        },Math.floor(Math.random()*3000 + 1000))
     }
 
     /**
@@ -82,6 +87,10 @@ class BackgroundAnimation{
             this.animation = window.requestAnimationFrame(animate);
         }
         this.animation = window.requestAnimationFrame(animate)
+    }
+
+    setHeight(height){
+        this.height = height;
     }
 
     /**

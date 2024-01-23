@@ -41,7 +41,7 @@ function Layout() {
       <>
         <Navigation links={links}/>
         <Outlet />
-        <Fotter />
+        <Fotter links={links}/>
       </>
   );
 }
