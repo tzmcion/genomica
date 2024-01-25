@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Dosis:wght@200;300;400;500;600;700;800&family=Roboto+Condensed:wght@400;500;600;700;800&family=Source+Sans+3:wght@200;300;400;500;600;700;800&display=swap');
+
 .Map{
     margin: 60px auto;
     width:1350px;
@@ -26,6 +28,128 @@
         }
         img{
             margin-top: 20px;
+        }
+    }
+    .Map-Container{
+        margin: 30px auto;
+        width:1180px;
+        height: 150px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position:relative;
+        display: flex;
+        flex-direction: row;
+        .Map-Data{
+            width:50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            span{
+                display: inline-block;
+                width: 100px;
+                color:#1b2244;
+                font-weight: 500;
+            }
+            a{
+                color:rgb(28, 73, 110);
+                text-decoration: none;
+                cursor: pointer;
+                &:hover{
+                    color:rgb(16, 43, 65);
+                    
+                }
+            }
+            h3,h4{
+                font-weight: 600;
+            }
+            h3,h4,p,a{
+                margin: 0;
+                padding: 0;
+                text-align: left;
+                width: 100%;
+            }
+            .Map-margin{
+                margin-top: 10px;
+            }
+        }
+        .Map-Map{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .Map-Image{
+                display: flex;
+                flex-direction: column;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.288);
+                border-radius: 2px;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                padding: 5px;
+                border: 5px solid #f6f6f8;
+                box-sizing: border-box;
+                a{
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 40px;
+                    width: 100%;
+                    bottom: 0px;
+                    left: 0px;
+                    background-color: #f6f6f8;
+                    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.26);
+                    text-decoration: none;
+                    color:black;
+                    img{
+                        width:30px;
+                        height: 30px;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        transition: 0.2s;
+                    }
+                    transition: 0.2s;
+                    &:hover{
+                        img{
+                            transform: rotate(10deg);
+                        }
+                        background-color: #ebebf5;
+                    }
+                }
+                h4,h5,h6{
+                    margin: 0;
+                    padding: 0;
+                    width: 100%;
+                    font-weight: 400;
+                    font-family: 'Caveat', cursive;
+                    // font-family: 'Dosis', sans-serif;
+                    // font-family: 'Roboto Condensed', sans-serif;
+                    // font-family: 'Source Sans 3', sans-serif;
+                }
+                h4{
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+                h5{
+                    font-size: 20px;
+                }
+                h6{
+                    margin-top: 16px;
+                    font-size: 18px;
+                }
+                .Map-IMG{
+                    position: absolute;
+                    right:10px;
+                    top:5px;
+                    width:60%;
+                    filter: invert(100%);
+                    transform: rotate(9deg);
+                    opacity: 0.4;
+                }
+            }
         }
     }
 }
