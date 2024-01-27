@@ -1,0 +1,24 @@
+.TitleContainer{
+    width:100%;
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    *:nth-child(1){
+        color:#594c5c;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    *:nth-child(2){
+        padding: 5px;
+        padding-left: 0;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 600;
+        color:rgb(0, 24, 56);
+    }
+    *:nth-child(3){
+        text-align: justify;
+        font-weight: 500;
+    }
+}
