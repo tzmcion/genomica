@@ -3,33 +3,6 @@
 .Map{
     margin: 60px auto;
     width:1350px;
-    .Map-Top{
-        width:100%;
-        h5,h2,h4{
-            margin: 0;
-            padding: 0;
-        }
-        h5{
-            color:#594c5c;
-            font-size: 16px;
-            font-weight: 600;
-        }
-        h2{
-            padding: 2px;
-            padding-left: 0;
-            text-transform: uppercase;
-            font-size: 24px;
-            font-weight: 600;
-            color:rgb(0, 24, 56);
-        }
-        h4{
-            text-align: justify;
-            font-weight: 500;
-        }
-        img{
-            margin-top: 20px;
-        }
-    }
     .Map-Container{
         margin: 30px auto;
         width:1180px;

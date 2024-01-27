@@ -23,7 +23,11 @@ export default function Banner() {
       }
     }
     if(animation){
-      if(animation.animation === 0){
+      if(animation.getWidth() !== dimensions.width){
+        const which_one = Math.random() > 0.5 ? true : false
+        set_animation(new BackgroundAnimation(canvas_ref.current.getContext('2d'),dimensions.width,500,which_one));
+      }
+      if(!animation.isAnimation_on()){
         animation.startAnimation();
       }
     }
@@ -32,8 +36,13 @@ export default function Banner() {
   },[animation,canvas_ref,dimensions]);
 
   useEffect(()=>{
-    //console.log(banner_ref.current.getBoundingClientRec().width);
-  },[banner_ref])
+    console.log(window.innerWidth);
+    const windowResize = ()=>{
+      set_dimensions({width:window.innerWidth});
+    }
+    window.addEventListener('resize',windowResize);
+    return () => {window.removeEventListener('resize',windowResize);}
+  },[])
 
   const create_animations = useCallback((e,pallete=null)=>{
     if(animation){

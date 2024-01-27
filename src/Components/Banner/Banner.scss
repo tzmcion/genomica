@@ -54,7 +54,7 @@
     }
 }
 
-@media only screen and (max-width:1500px){
+@media only screen and (max-width:1540px){
     .Banner{
         .Banner-Data{
             .genomica{
@@ -62,8 +62,17 @@
                 height: 280px;
             }
             .jag{
-                width:300px;
+                width:310px;
                 height: 280px;
+            }
+        }
+    }
+    .Big{
+        .Banner-Data{
+            .genomica{
+                margin-left: 240px;
+                width:1200px;
+                height:450px;
             }
         }
     }

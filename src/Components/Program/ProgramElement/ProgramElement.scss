@@ -1,0 +1,51 @@
+.ProgramElement{
+    width: 100%;
+    padding: 10px;
+    padding-top: 4px;
+    margin-bottom: 10px;
+    background-color: #f6f6f8;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.214);
+    h3{
+        color:#589073;
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .ProgramElement-Events{
+        width:90%;
+        margin: 0px auto;
+        .ProgramElement-Event{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            margin-bottom: 10px;
+            img{
+                width:25px;
+                height:25px;
+                padding: 5px;
+                border-right: 2px dashed rgba(0, 0, 0, 0.427);
+            }
+            .ProgramElement-Event-Data{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                h4,h5{
+                    margin: 0;
+                    padding: 0;
+                    margin-left: 10px;
+                }
+                h5{
+                    font-weight: 700;
+                    font-size: 12px;
+                }
+                h4{
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

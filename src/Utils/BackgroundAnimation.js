@@ -92,6 +92,13 @@ class BackgroundAnimation{
     setHeight(height){
         this.height = height;
     }
+    getWidth(){
+        return this.width;
+    }
+
+    isAnimation_on(){
+        return this.animation !== 0;
+    }
 
     /**
      * Zatrzymuje animacje

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Map.scss';
+import TitleComponent from '../TitleComponent/TitleComponent';
 
 import mappng from '../../Assets/destination.png';
 import genetics from '../../Assets/genetics.png';
@@ -7,11 +8,11 @@ import genetics from '../../Assets/genetics.png';
 export default function Map() {
   return (
     <div className='Map'>
-        <div className='Map-Top'>
+        <TitleComponent>
           <h5>We are just around the corner</h5>
           <h2>How to get there?</h2>
           <h4>It is easy when you can show it on the map, but if you'd like we can always point you directions from the main train station (15* turn tight, 12* turn left)</h4>
-        </div>
+        </TitleComponent>
         <div className='Map-Container'>
             <div className='Map-Data'>
                 <h3><span>Address: </span>Institute of Zoology</h3>
