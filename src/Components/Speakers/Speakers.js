@@ -5,6 +5,7 @@ import TitleComponent from '../TitleComponent/TitleComponent'
 
 import magdaB from '../../Assets/speakers/magda-bienko.png'
 import kobeB from '../../Assets/speakers/kobe.jpg';
+import Shaq from '../../Assets/speakers/Shaq.jpg';
 
 export default function Speakers() {
   return (
@@ -21,6 +22,8 @@ export default function Speakers() {
         <SpeakerCard title='Kobe Bryant' img={kobeB}>6'2 point-guard <br /> Los Angeles Lakers</SpeakerCard>
         <SpeakerCard title='Magdalena Bienko' img={magdaB}>Research Group Leader <br /> Bienko Group</SpeakerCard>
         <SpeakerCard title='Kobe Bryant' img={kobeB}>6'2 point-guard <br /> Los Angeles Lakers</SpeakerCard>
+        <SpeakerCard title='Magdalena Bienko' img={magdaB}>Research Group Leader <br /> Bienko Group</SpeakerCard>
+        <SpeakerCard title='Shaq' img={Shaq}>Unstopabble Center-Forward<br /> Los Angeles Leakers</SpeakerCard>
       </div>
     </div>
   )
