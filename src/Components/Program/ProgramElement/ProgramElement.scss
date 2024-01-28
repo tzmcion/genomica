@@ -2,50 +2,101 @@
     width: 100%;
     padding: 10px;
     padding-top: 4px;
-    margin-bottom: 10px;
-    background-color: #f6f6f8;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.214);
+    margin-bottom: 20px;
+    // box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.214);
+    // border-top: 2px dotted rgb(160, 160, 160);
     h3{
         color:#589073;
         margin: 0;
         padding: 0;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 22px;
     }
     .ProgramElement-Events{
         width:90%;
         margin: 0px auto;
         .ProgramElement-Event{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: flex-start;
+            max-height:40px;
+            overflow: hidden;
+            transition: 0.5s ease;
             margin-bottom: 10px;
-            img{
-                width:25px;
-                height:25px;
-                padding: 5px;
-                border-right: 2px dashed rgba(0, 0, 0, 0.427);
-            }
-            .ProgramElement-Event-Data{
+            padding-top: 5px;
+            .ProgramElement-Event-Title{
                 display: flex;
                 flex-direction: row;
-                justify-content: flex-start;
                 align-items: center;
-                h4,h5{
-                    margin: 0;
-                    padding: 0;
-                    margin-left: 10px;
+                justify-content: flex-start;
+                padding: 0px 10px 0px 10px;
+                margin-left: -10px;
+                width: 100%;
+                img{
+                    width:35px;
+                    height:35px;
+                    padding: 5px;
+                    border-right: 2px dashed rgba(0, 0, 0, 0.427);
                 }
-                h5{
-                    font-weight: 700;
-                    font-size: 12px;
-                }
-                h4{
-                    font-weight: 400;
-                    font-size: 16px;
+                .ProgramElement-Event-Data{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: center;
+                    width: 100%;
+                    .ProgramElement-Event-Data-Left{
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 10px;
+                        align-items: flex-start;
+                        justify-content: center;
+                        min-width: fit-content;
+                        width: 200px;
+                        h5,h6{
+                            margin: 0;
+                            padding: 0;
+                            margin-left: 10px;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 14px;
+                        }
+                        h6{
+                            font-weight: 500;
+                            color:#517693;
+                            font-size: 16px;
+                            line-height: 16px;
+                        }
+                    }
+                    h4{
+                        margin: 0;
+                        padding: 0;
+                        margin-left: 20px;
+                        font-weight: 400;
+                        font-size: 20px;
+                        width: fit-content;
+                    }
                 }
             }
+            .ProgramElement-Event-Description{
+               width:960px;
+               height: fit-content;
+               margin-left: 5px;
+               margin-top: 10px;
+               display: flex;
+               align-items: center;
+               border-radius: 5px;
+                p{
+                    margin: 0;
+                    padding-bottom: 10px;
+                    padding-top: 5px;
+                }
+            }
+            &:hover{
+                cursor: pointer;
+                background-color: #f6f6f8;
+            }
+        }
+        .Event-Open{
+            max-height: 500px;
+            // background-color: #f6f6f8;
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.151);
         }
     }
 }
