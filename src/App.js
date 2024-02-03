@@ -9,7 +9,7 @@ import Home from './Pages/Home/Home.js'
 import Error from "./Pages/Error/Error.js";
 import Program from "./Pages/Program/Program.js";
 import Attend from "./Pages/Attend/Attend.js";
-import Sponsor from "./Pages/Sponsor/Sponsor.js";
+import Sponsors from "./Pages/Sponsors/Sponsors.js";
 import Fotter from "./Components/Fotter/Fotter.js";
 import Navigation from "./Components/Navigation/Navigation.js";
 
@@ -30,9 +30,9 @@ const links = [
     name:"Attend"
   },
   {
-    path:"/sponsor",
-    element: <Sponsor />,
-    name:"Sponsor"
+    path:"/partners",
+    element: <Sponsors />,
+    name:"Partners"
   }
 ]
 

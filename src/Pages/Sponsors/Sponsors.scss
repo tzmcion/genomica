@@ -1,0 +1,13 @@
+.Sponsors{
+    width: 1440px;
+    margin: 0 auto;
+    min-height: calc(100vh - 550px);
+    .Sponsors-List{
+        width: 960px;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
