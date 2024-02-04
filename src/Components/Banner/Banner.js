@@ -27,7 +27,7 @@ export default function Banner() {
         const which_one = Math.random() > 0.5 ? true : false
         set_animation(new BackgroundAnimation(canvas_ref.current.getContext('2d'),dimensions.width,500,which_one));
       }
-      if(!animation.isAnimation_on() && dimensions.width > 1000){
+      if(!animation.isAnimation_on()){
         animation.startAnimation();
       }
     }

@@ -46,9 +46,9 @@ export default function HomeData() {
                 <Ticket type={'Speaker'} color='Green' cons={['Acces to all meetings','Speaker pass', 'Gadgets']} price={120}>
                     As a speaker you will lead the talk about topics ou are working with.
                 </Ticket>
-                <Ticket type={'Student'} color='Red' cons={['Acces to all meetings','Gadgets','Only for UJ students']} price={120}>
+                {/* <Ticket type={'Student'} color='Red' cons={['Acces to all meetings','Gadgets','Only for UJ students']} price={120}>
                     As a student you can acces all the talks ass the listener in lower price!
-                </Ticket>
+                </Ticket> */}
                 <Ticket type={'Member'} color='Blue' cons={['Acces to all meetings', 'Gadgets',]} price={120}>
                     As a member you can acces all the talks and help to grow the science!
                 </Ticket>
