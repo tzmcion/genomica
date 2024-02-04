@@ -3,10 +3,11 @@ import { RopeImage, RopeOptions } from '../BGCanvas'
 import './Sponsor.scss'
 
 export default function Sponsor({image,title}) {
-    const options = RopeOptions;
+    const options = {...RopeOptions};
     options.obj_width = 2;
     options.quantity = 10;
     options.gravity = 0.35;
+    options.color = 'rgba(0,0,0,0)';
 
   return (
     <div className='Sponsor'>

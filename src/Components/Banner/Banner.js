@@ -27,7 +27,7 @@ export default function Banner() {
         const which_one = Math.random() > 0.5 ? true : false
         set_animation(new BackgroundAnimation(canvas_ref.current.getContext('2d'),dimensions.width,500,which_one));
       }
-      if(!animation.isAnimation_on()){
+      if(!animation.isAnimation_on() && dimensions.width > 1000){
         animation.startAnimation();
       }
     }
@@ -79,15 +79,17 @@ export default function Banner() {
     }
   }
 
-  const handleMouseEnter = () =>{
-    document.body.style.overflowY = 'hidden';
-    set_banner_height(window.innerHeight);
-    if(animation)
-    animation.setHeight(window.innerHeight + 200);
+  const handleMouseDown = () =>{
+    if(dimensions.width > 1000){
+      document.body.style.overflowY = 'hidden';
+      set_banner_height(window.innerHeight);
+      if(animation)
+      animation.setHeight(window.innerHeight + 200);
+    }
   }
 
   return (
-    <div className={`Banner ${banner_hight > 300 ? 'Big' : ''}`} onMouseMove={handleMouseMove} onMouseDown={handleMouseEnter} style={{backgroundImage:`url(${bg})`,height:`${banner_hight}px`}} onClick={handleClick} ref={banner_ref}>
+    <div className={`Banner ${banner_hight > 300 ? 'Big' : ''}`} onMouseMove={handleMouseMove} onMouseDown={handleMouseDown} style={{backgroundImage:`url(${bg})`,height:`${banner_hight}px`}} onClick={handleClick} ref={banner_ref}>
       <canvas ref={canvas_ref} width={dimensions.width} height={banner_hight+200}></canvas>
       <div className='Banner-Data'>
         <img src={banner} alt='bann' className='genomica'/>

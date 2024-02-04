@@ -10,18 +10,18 @@ import {ProgramData} from '../../Utils/Data';
 
 export default function Program() {
     const renderElements = () =>{
-        const options = RopeOptions;
-        options.gravity = 0.6;
+        const options = {...RopeOptions};
+        options.gravity = 0.4;
         options.air_friction = 0.99;
-        options.quantity = 18;
-        options.obj_width = 3;
+        options.quantity = 14;
+        options.obj_width = 2;
         // return ProgramData.map(day=>{
         //     return <Element key={day.day} data={day.events} day={day.day} />
         // })
         return <div className='Banners'>
-                    <RopeImage width={200} height={200} src={may17} options={options} />
-                    <RopeImage width={200} height={200} src={may18} options={options} />
-                    <RopeImage width={200} height={200} src={may19} options={options} />
+                    <RopeImage width={240} height={200} src={may17} options={options} />
+                    <RopeImage width={240} height={200} src={may18} options={options} />
+                    <RopeImage width={240} height={200} src={may19} options={options} />
             </div>
     }
 

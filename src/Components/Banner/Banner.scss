@@ -77,3 +77,62 @@
         }
     }
 }
+
+@media only screen and (max-width:1350px){
+    .Banner{
+        .Banner-Data{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0s;
+            .genomica{
+                width:700px;
+                height: 280px;
+                margin: 0;
+                transition: 0s;
+            }
+            .jag{
+                display: none;
+            }
+        }
+    }
+    .Big{
+        .Banner-Data{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .genomica{
+                width:1200px;
+                height:450px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:550px){
+    .Banner{
+        height: 200px !important;
+        .Banner-Data{
+            .genomica{
+                width:500px;
+                height: 220px;
+                margin: 0;
+                transition: 0s;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:450px){
+    .Banner{
+        height: 150px !important;
+        .Banner-Data{
+            .genomica{
+                width:350px;
+                height: 150px;
+                margin: 0;
+                transition: 0s;
+            }
+        }
+    }
+}

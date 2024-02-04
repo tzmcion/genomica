@@ -4,8 +4,8 @@ import SpeakerCard from './SpeakerCard/SpeakerCard'
 import TitleComponent from '../TitleComponent/TitleComponent'
 
 import magdaB from '../../Assets/speakers/magda-bienko.png'
-import kobeB from '../../Assets/speakers/kobe.jpg';
-import Shaq from '../../Assets/speakers/Shaq.jpg';
+import chyllinski from '../../Assets/speakers/Chylinski.png';
+import szczepinska from '../../Assets/speakers/szczepinska.jpg';
 
 export default function Speakers() {
   return (
@@ -19,11 +19,8 @@ export default function Speakers() {
       </div>
       <div className='Speakers-Container'>
         <SpeakerCard title='Magdalena Bienko' img={magdaB}>Research Group Leader <br /> Bienko Group</SpeakerCard>
-        <SpeakerCard title='Kobe Bryant' img={kobeB}>6'2 point-guard <br /> Los Angeles Lakers</SpeakerCard>
-        <SpeakerCard title='Magdalena Bienko' img={magdaB}>Research Group Leader <br /> Bienko Group</SpeakerCard>
-        <SpeakerCard title='Kobe Bryant' img={kobeB}>6'2 point-guard <br /> Los Angeles Lakers</SpeakerCard>
-        <SpeakerCard title='Magdalena Bienko' img={magdaB}>Research Group Leader <br /> Bienko Group</SpeakerCard>
-        <SpeakerCard title='Shaq' img={Shaq}>Unstopabble Center-Forward<br /> Los Angeles Leakers</SpeakerCard>
+        <SpeakerCard title='Krzysztof Chyliński' img={chyllinski}>Molecular Biology<br /> CRISPR/Cas-9</SpeakerCard>
+        <SpeakerCard title='Teresa Szczepińska' img={szczepinska}>Bioinformatics, 3D gen structure<br /> Warsaw University of Technology</SpeakerCard>
       </div>
     </div>
   )

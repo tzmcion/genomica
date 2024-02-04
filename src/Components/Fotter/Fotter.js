@@ -20,6 +20,28 @@ const social_links = [
   },
 ]
 
+const speakers_links = [
+  {
+    name: 'Szczepinska',
+    path:"https://cezamat.eu/o-nas/zespol/teresa-szczepinska/"
+  },
+  {
+    name: 'Chyliński',
+    path:'https://binoz.p.lodz.pl/pl/krzysztof-chylinski'
+  },
+  {
+    name:'Bienko',
+    path:'https://humantechnopole.it/en/people/magda-bienko/'
+  }
+];
+
+const uj_links = [
+  {
+    name:'IZZIB',
+    path:'https://izibb.binoz.uj.edu.pl/en_GB/'
+  }
+]
+
 export default function Fotter({links}) {
 
   const renderLinks = () =>{
@@ -29,9 +51,21 @@ export default function Fotter({links}) {
   }
 
   const renderSpeakers = () =>{
+    return speakers_links.map((link,index) =>{
+      return <Link to={link.path} key={`${index}social`}>{link.name === '/' ? 'Home' : link.name}</Link>
+    })
+  }
+
+  const renderUj = () =>{
+    return uj_links.map((link,index) =>{
+      return <Link to={link.path} key={`${index}social`}>{link.name === '/' ? 'Home' : link.name}</Link>
+    })
+  }
+
+  const renderSocial = () =>{
     return social_links.map((link,index) =>{
       return <Link to={link.path} key={`${index}social`}>{link.name === '/' ? 'Home' : link.name}</Link>
-  })
+    })
   }
 
   return (
@@ -49,11 +83,11 @@ export default function Fotter({links}) {
             </div>
             <div className='Footer-Links'>
               <h2>UJ</h2>
-              {renderSpeakers()}
+              {renderUj()}
             </div>
             <div className='Footer-Links'>
               <h2>WEB</h2>
-              {renderSpeakers()}
+              {renderSocial()}
             </div>
             <div className='Footer-Links Footer-Copyright'>
               <img src={Logo} alt='logo' />
