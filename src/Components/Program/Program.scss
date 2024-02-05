@@ -10,5 +10,18 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
+        canvas{
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media  only screen and (max-width: 610px) {
+    .Program{
+        .Banners{
+            width: 95%;
+            flex-direction: column;
+            
+        }
     }
 }

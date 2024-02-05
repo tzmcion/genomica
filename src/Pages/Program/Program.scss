@@ -2,3 +2,27 @@
     width:1440px;
     margin: 0 auto;
 }
+
+@media only screen and (max-width:1440px) {
+    .Program-Page{
+        width: 960px;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .Program-Page{
+        width: 760px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .Program-Page{
+        width: 560px;
+    }
+}
+
+@media only screen and (max-width:610px) {
+    .Program-Page{
+        width: 90%;
+    }
+}

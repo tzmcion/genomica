@@ -16,3 +16,34 @@
         flex-wrap: wrap;
     }
 }
+
+@media only screen and (max-width:1440px) {
+    .Speakers{
+        width: 1140px;
+        .Speakers-Container{
+            width:100%;
+        }
+    }
+}
+
+@media only screen and (max-width:1180px) {
+    .Speakers{
+        width: 90%;
+        .Speakers-Container{
+            width: 80%;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media only screen and (max-width:1030px) {
+    .Speakers{
+        width: 90%;
+        .Speakers-Container{
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+    }
+}

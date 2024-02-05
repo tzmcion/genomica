@@ -72,3 +72,21 @@
         }
     }
 }
+
+@media only screen and (max-width:1440px) {
+    .Fotter{
+        .Footer-Container{
+            width: 90%;
+            .Footer-Content{
+                width: 90%;
+                justify-content: center;
+                .Footer-Links{
+                    display: none;
+                }
+                .Footer-Copyright{
+                    display:flex;
+                }
+            }
+        }
+    }
+}

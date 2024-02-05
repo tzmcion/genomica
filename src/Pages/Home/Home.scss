@@ -23,12 +23,36 @@
 @media only screen and (max-width:1110px){
     .Home{
         .container-top{
+            width: 880px;
+        }
+    }
+}
+
+@media only screen and (max-width:880px){
+    .Home{
+        .container-top{
             width: 680px;
         }
     }
 }
 
 @media only screen and (max-width:700px){
+    .Home{
+        .container-top{
+            width: 600px;
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .Home{
+        .container-top{
+            width: 500px;
+        }
+    }
+}
+
+@media only screen and (max-width:500px){
     .Home{
         .container-top{
             width: 400px;

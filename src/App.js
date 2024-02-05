@@ -8,7 +8,6 @@ import {
 import Home from './Pages/Home/Home.js'
 import Error from "./Pages/Error/Error.js";
 import Program from "./Pages/Program/Program.js";
-import Attend from "./Pages/Attend/Attend.js";
 import Sponsors from "./Pages/Sponsors/Sponsors.js";
 import Fotter from "./Components/Fotter/Fotter.js";
 import Navigation from "./Components/Navigation/Navigation.js";
@@ -25,8 +24,8 @@ const links = [
     name:"Program"
   },
   {
-    path:"/attend",
-    element:<Attend />,
+    path:"https://www.ru.nl/publish/pages/947657/flying_circus_meme.jpg",
+    element:<></>,
     name:"Attend"
   },
   {

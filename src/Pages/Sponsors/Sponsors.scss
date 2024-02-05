@@ -11,3 +11,29 @@
         justify-content: space-evenly;
     }
 }
+
+@media only screen and (max-width:1440px) {
+    .Sponsors{
+        width: 960px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .Sponsors{
+        width: 800px;
+        .Sponsors-List{
+            width: 800px;
+        }
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .Sponsors{
+        width: 90%;
+        .Sponsors-List{
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

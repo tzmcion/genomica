@@ -19,9 +19,9 @@ export default function Program() {
         //     return <Element key={day.day} data={day.events} day={day.day} />
         // })
         return <div className='Banners'>
-                    <RopeImage width={240} height={200} src={may17} options={options} />
-                    <RopeImage width={240} height={200} src={may18} options={options} />
-                    <RopeImage width={240} height={200} src={may19} options={options} />
+                    <RopeImage width={240} height={150} src={may17} options={options} />
+                    <RopeImage width={240} height={150} src={may18} options={options} />
+                    <RopeImage width={240} height={150} src={may19} options={options} />
             </div>
     }
 

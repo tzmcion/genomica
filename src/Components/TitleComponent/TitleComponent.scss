@@ -22,3 +22,21 @@
         font-weight: 500;
     }
 }
+
+@media  only screen and (max-width:610px) {
+    .TitleContainer{
+        *:nth-child(2){
+            padding: 5px;
+            padding-left: 0;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 600;
+            color:rgb(0, 24, 56);
+        }
+        *:nth-child(3){
+            text-align: justify;
+            font-weight: 500;
+            font-size: 14px;
+        }
+    }
+}
