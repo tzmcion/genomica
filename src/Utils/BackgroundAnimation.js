@@ -92,6 +92,9 @@ class BackgroundAnimation{
     setHeight(height){
         this.height = height;
     }
+    setWidth(width){
+        this.width = width;
+    }
     getWidth(){
         return this.width;
     }

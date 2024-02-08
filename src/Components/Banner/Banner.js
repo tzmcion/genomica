@@ -24,25 +24,24 @@ export default function Banner() {
     }
     if(animation){
       if(animation.getWidth() !== dimensions.width){
-        const which_one = Math.random() > 0.5 ? true : false
-        set_animation(new BackgroundAnimation(canvas_ref.current.getContext('2d'),dimensions.width,500,which_one));
+        animation.setWidth(dimensions.width);
       }
       if(!animation.isAnimation_on()){
         animation.startAnimation();
       }
     }
-
-    return () => {animation && animation.stopAnimation()}
   },[animation,canvas_ref,dimensions]);
 
   useEffect(()=>{
-    console.log(window.innerWidth);
     const windowResize = ()=>{
       set_dimensions({width:window.innerWidth});
     }
     window.addEventListener('resize',windowResize);
-    return () => {window.removeEventListener('resize',windowResize);}
-  },[])
+    return () => {
+      animation && animation.stopAnimation()
+      window.removeEventListener('resize',windowResize);
+    }
+  },[animation])
 
   const create_animations = useCallback((e,pallete=null)=>{
     if(animation){

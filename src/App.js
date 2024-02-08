@@ -24,7 +24,7 @@ const links = [
     name:"Program"
   },
   {
-    path:"https://www.ru.nl/publish/pages/947657/flying_circus_meme.jpg",
+    path:"https://docs.google.com/forms/d/1ZjV-PIv8Y9WDxcyuI_vrxldhMIBJiJPAu30pV5S-HRk/viewform?edit_requested=true",
     element:<></>,
     name:"Attend"
   },

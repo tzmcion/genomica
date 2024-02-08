@@ -20,7 +20,7 @@ export default function Sponsors() {
       </TitleComponent>
       <div className='Sponsors-List'>
         <Sponsor title={'AA Biotechnology'} image={aa_bio}/>
-        <Sponsor title={'Ependorf'} image={ependorf}/>
+        <Sponsor title={'Eppendorf'} image={ependorf}/>
         <Sponsor title='KNSB InSilico' image={inSilico} />
       </div>
     </div>

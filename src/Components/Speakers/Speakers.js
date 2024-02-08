@@ -14,7 +14,7 @@ export default function Speakers() {
         <TitleComponent>
           <h5>Our Speakers</h5>
           <h2>Who will be there?</h2>
-          <h4>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</h4>
+          <h4>It is important to know who is inspiring you and who you work with. This is the list of people which confirmed will participate as speakers in our conference</h4>
         </TitleComponent>
       </div>
       <div className='Speakers-Container'>
