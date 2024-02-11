@@ -1,0 +1,10 @@
+.Rodo{
+    width:1080px;
+    margin: 10px auto;
+}
+
+@media only screen and (max-width:1080px){
+    .Rodo{
+        width:90%;
+    }
+}

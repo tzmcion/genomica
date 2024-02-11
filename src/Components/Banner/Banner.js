@@ -71,6 +71,7 @@ export default function Banner() {
   const handleMouseMove = (e) =>{
     if(e.clientY > 350){
       document.body.style.overflowY = 'auto';
+      document.body.style.height = 'auto';
       if(animation){
         set_banner_height(300);
         animation.setHeight(500);
@@ -81,6 +82,7 @@ export default function Banner() {
   const handleMouseDown = () =>{
     if(dimensions.width > 1000){
       document.body.style.overflowY = 'hidden';
+      document.body.style.height = '100vh';
       set_banner_height(window.innerHeight);
       if(animation)
       animation.setHeight(window.innerHeight + 200);

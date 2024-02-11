@@ -32,7 +32,7 @@ function Ticket({type,price, color, cons, children}){
             <ul>
                 {renderCons()}
             </ul>
-            <button>Register</button>
+            <button onClick={()=>{window.location = "https://docs.google.com/forms/d/1ZjV-PIv8Y9WDxcyuI_vrxldhMIBJiJPAu30pV5S-HRk/viewform?edit_requested=true";}}>Register</button>
         </div>
     </div>);
 }

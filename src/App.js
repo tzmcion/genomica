@@ -11,6 +11,7 @@ import Program from "./Pages/Program/Program.js";
 import Sponsors from "./Pages/Sponsors/Sponsors.js";
 import Fotter from "./Components/Fotter/Fotter.js";
 import Navigation from "./Components/Navigation/Navigation.js";
+import Rodo from './Pages/RODO/Rodo.js'
 
 const links = [
   {
@@ -32,6 +33,11 @@ const links = [
     path:"/partners",
     element: <Sponsors />,
     name:"Partners"
+  },
+  {
+    path:"/Rodo",
+    element: <Rodo />,
+    name:"TOC"
   }
 ]
 
