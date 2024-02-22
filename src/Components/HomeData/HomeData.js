@@ -44,7 +44,7 @@ export default function HomeData() {
             <h1>Join us as a speaker or attendent!</h1>
             <div className='HomeData-Register-Fast'>
                 <Ticket type={'Speaker'} color='Green' cons={['Acces to all meetings','Speaker pass', 'Gadgets']} price={120}>
-                    As a speaker you will lead the talk about topics ou are working with.
+                    As a speaker you will lead the talk about topics you work with.
                 </Ticket>
                 {/* <Ticket type={'Student'} color='Red' cons={['Acces to all meetings','Gadgets','Only for UJ students']} price={120}>
                     As a student you can acces all the talks ass the listener in lower price!
