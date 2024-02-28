@@ -20,7 +20,7 @@ export default function Speakers() {
       <div className='Speakers-Container'>
         <SpeakerCard title='Magdalena Bienko' img={magdaB}>Research Group Leader <br /> Bienko Group</SpeakerCard>
         <SpeakerCard title='Krzysztof Chyliński' img={chyllinski}>Molecular Biology<br /> CRISPR/Cas-9</SpeakerCard>
-        <SpeakerCard title='Teresa Szczepińska' img={szczepinska}>Bioinformatics, 3D gene structure<br /> Warsaw University of Technology</SpeakerCard>
+        <SpeakerCard title='Teresa Szczepińska' img={szczepinska}>Bioinformatics and Genome Structure Laboratory,<br /> CEZMAT</SpeakerCard>
       </div>
     </div>
   )
