@@ -12,6 +12,7 @@ import Sponsors from "./Pages/Sponsors/Sponsors.js";
 import Fotter from "./Components/Fotter/Fotter.js";
 import Navigation from "./Components/Navigation/Navigation.js";
 import Rodo from './Pages/RODO/Rodo.js'
+import Attachments from './Pages/Attachments/Attachments.js'
 
 const links = [
   {
@@ -38,6 +39,12 @@ const links = [
     path:"/Rodo",
     element: <Rodo />,
     name:"TOC"
+  },
+  {
+    path:"/attachments",
+    element:<Attachments />,
+    name:"Attachments"
+  
   }
 ]
 
