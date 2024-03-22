@@ -14,7 +14,7 @@ export default function Attachments() {
 
             <h1>Abstract template</h1>
             <a href="https://drive.google.com/file/d/1lRZEhzLxxXjSO9998yAdFRQax8GanX6P/view?usp=sharing>" >Abstract template [PL]</a>
-
+            <a href="https://drive.google.com/file/d/19uqL3oknAzRIDj-KYoIu3Jw6X19baFJn/view?usp=sharing">Abstract template [EN]</a>
         </div>
     )
 }
