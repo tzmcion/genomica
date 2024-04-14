@@ -19,7 +19,7 @@ export default function Speakers() {
         </TitleComponent>
       </div>
       <div className='Speakers-Container'>
-        <SpeakerCard title='Magdalena Bienko' img={magdaB}>Research Group Leader <br /> Bienko Group</SpeakerCard>
+        {/* <SpeakerCard title='Magdalena Bienko' img={magdaB}>Research Group Leader <br /> Bienko Group</SpeakerCard> */}
         <SpeakerCard title='Krzysztof Chyliński' img={chyllinski}>Molecular Biology<br /> CRISPR/Cas-9</SpeakerCard>
         <SpeakerCard title='Teresa Szczepińska' img={szczepinska}>Bioinformatics and Genome Structure Laboratory,<br /> CEZMAT</SpeakerCard>
         <SpeakerCard title='Aleksandra Pękowska' img={pekowska}>Head of Dioscuri Centre for Chromatin Biology and Epigenomics</SpeakerCard>
