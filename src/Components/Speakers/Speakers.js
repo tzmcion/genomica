@@ -7,6 +7,7 @@ import magdaB from '../../Assets/speakers/magda-bienko.png'
 import chyllinski from '../../Assets/speakers/Chylinski.png';
 import szczepinska from '../../Assets/speakers/szczepinska.jpg';
 import pekowska from '../../Assets/speakers/pekowska.png';
+import neli from '../../Assets/speakers/neli.jpg';
 
 export default function Speakers() {
   return (
@@ -19,10 +20,11 @@ export default function Speakers() {
         </TitleComponent>
       </div>
       <div className='Speakers-Container'>
-        {/* <SpeakerCard title='Magdalena Bienko' img={magdaB}>Research Group Leader <br /> Bienko Group</SpeakerCard> */}
         <SpeakerCard title='Krzysztof Chyliński' img={chyllinski}>Molecular Biology<br /> CRISPR/Cas-9</SpeakerCard>
         <SpeakerCard title='Teresa Szczepińska' img={szczepinska}>Bioinformatics and Genome Structure Laboratory,<br /> CEZMAT</SpeakerCard>
         <SpeakerCard title='Aleksandra Pękowska' img={pekowska}>Head of Dioscuri Centre for Chromatin Biology and Epigenomics</SpeakerCard>
+        <SpeakerCard title='Neli Kachamakova' img={neli}>Molecular Mechanisms of Disease Lab Leader <br /></SpeakerCard> 
+
       </div>
     </div>
   )
