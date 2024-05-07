@@ -7,6 +7,9 @@ import Sponsor from '../../Components/Sponsor/Sponsor'
 import aa_bio from '../../Assets/program/sponsor_aa_biotechnology_2.png';
 import ependorf from '../../Assets/program/ependorf.png';
 import inSilico from '../../Assets/program/InSilico.png';
+import labjot from '../../Assets/program/LabJOT.jpg'
+import genxone from '../../Assets/program/genxone.png'
+
 
 export default function Sponsors() {
   return (
@@ -19,10 +22,16 @@ export default function Sponsors() {
         </h3>
       </TitleComponent>
       <div className='Sponsors-List'>
-        <Sponsor title={'AA Biotechnology'} image={aa_bio}/>
+        <Sponsor title={'A&A Biotechnology'} image={aa_bio}/>
         <Sponsor title={'Eppendorf'} image={ependorf}/>
         <Sponsor title='KNSB InSilico' image={inSilico} />
       </div>
+      <div className='Sponsors-List'>
+        <Sponsor title='Lab-JOT' image = {labjot} />
+        <Sponsor title='genXone' image = {genxone} />
+      </div>
+
+      
     </div>
   )
 }
