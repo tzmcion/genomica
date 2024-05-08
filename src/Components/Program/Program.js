@@ -6,11 +6,13 @@ import may18 from '../../Assets/program/may18.png';
 import may19 from '../../Assets/program/may19.png';
 import Element from './ProgramElement/ProgramElement';
 import TitleComponent from '../TitleComponent/TitleComponent';
-import {ProgramData} from '../../Utils/Data';
+import { ProgramData } from '../../Utils/Data';
+import program from '../../Assets/program/schedule.jpg'
+
 
 export default function Program() {
-    const renderElements = () =>{
-        const options = {...RopeOptions};
+    const renderElements = () => {
+        const options = { ...RopeOptions };
         options.gravity = 0.4;
         options.air_friction = 0.99;
         options.quantity = 14;
@@ -19,24 +21,27 @@ export default function Program() {
         //     return <Element key={day.day} data={day.events} day={day.day} />
         // })
         return <div className='Banners'>
-                    <RopeImage width={240} height={150} src={may17} options={options} />
-                    <RopeImage width={240} height={150} src={may18} options={options} />
-                    <RopeImage width={240} height={150} src={may19} options={options} />
-            </div>
+            <RopeImage width={240} height={150} src={may17} options={options} />
+            <RopeImage width={240} height={150} src={may18} options={options} />
+            <RopeImage width={240} height={150} src={may19} options={options} />
+        </div>
     }
 
-  return (
-    <div className='Program'>
-        <TitleComponent>
-            <p>Our Program</p>
+    return (
+        <div className='Program'>
+            <TitleComponent>
+                {/* <p>Our Program</p>
             <p>What will it look like?</p>
             <p>Our program is not yet frozen, it can change, and we do not want you to make plans and then be forced to change them accordingly <br />
                 Therefore, please give us some little time and we will share what will be happening this year!
-            </p>
-        </TitleComponent>
-        <div className='Program-List'>
+            </p> */}
+                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                    <img src={program} alt='program' />
+                </div>
+            </TitleComponent>
+            {/* <div className='Program-List'>
             {renderElements()}
+        </div> */}
         </div>
-    </div>
-  )
+    )
 }
