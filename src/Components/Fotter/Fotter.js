@@ -30,8 +30,12 @@ const speakers_links = [
     path:'https://binoz.p.lodz.pl/pl/krzysztof-chylinski'
   },
   {
-    name:'Bienko',
-    path:'https://humantechnopole.it/en/people/magda-bienko/'
+    name:'Kachamakova',
+    path:'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3656957/'
+  },
+  {
+    name:'Pękowska',
+    path:'https://nencki.edu.pl/pl/people/pekowska-aleksandra/'
   }
 ];
 
