@@ -3,11 +3,7 @@ import './Speakers.scss'
 import SpeakerCard from './SpeakerCard/SpeakerCard'
 import TitleComponent from '../TitleComponent/TitleComponent'
 
-import magdaB from '../../Assets/speakers/magda-bienko.png'
-import chyllinski from '../../Assets/speakers/Chylinski.png';
-import szczepinska from '../../Assets/speakers/szczepinska.jpg';
-import pekowska from '../../Assets/speakers/pekowska.png';
-import neli from '../../Assets/speakers/neli.jpg';
+import template from '../../Assets/speakers/speaker_template.png'
 
 export default function Speakers() {
   return (
@@ -20,11 +16,10 @@ export default function Speakers() {
         </TitleComponent>
       </div>
       <div className='Speakers-Container'>
-        <SpeakerCard title='Krzysztof Chyliński' img={chyllinski}>Molecular Biology<br /> CRISPR/Cas-9</SpeakerCard>
-        <SpeakerCard title='Teresa Szczepińska' img={szczepinska}>Bioinformatics and Genome Structure Laboratory,<br /> CEZMAT</SpeakerCard>
-        <SpeakerCard title='Aleksandra Pękowska' img={pekowska}>Head of Dioscuri Centre for Chromatin Biology and Epigenomics</SpeakerCard>
-        <SpeakerCard title='Neli Kachamakova' img={neli}>Molecular Mechanisms of Disease Lab Leader <br /></SpeakerCard> 
-
+        <SpeakerCard title='Speaker #1' img={template}>Speakers will be shortly revealed</SpeakerCard>
+        <SpeakerCard title='Speaker #2' img={template}>Speakers will be shortly revealed</SpeakerCard>
+        <SpeakerCard title='Speaker #3' img={template}>Speakers will be shortly revealed</SpeakerCard>
+        <SpeakerCard title='Speaker #4' img={template}>Speakers will be shortly revealed</SpeakerCard> 
       </div>
     </div>
   )
