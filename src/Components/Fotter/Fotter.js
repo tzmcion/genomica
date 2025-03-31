@@ -95,7 +95,7 @@ export default function Fotter({links}) {
             </div>
             <div className='Footer-Links Footer-Copyright'>
               <img src={Logo} alt='logo' />
-              <p>&copy; 2025 genomica.pl</p>
+              <p>&copy; 2025 genomica-krakow.pl</p>
               <p>Authors: <a href="https://www.linkedin.com/in/kamil-kozik-a1447a220/">Kamil</a> && <a href='https://www.linkedin.com/in/tymoteusz-apriasz-2ba8501a6/'>Tymoteusz</a></p>
             </div>
           </div>
