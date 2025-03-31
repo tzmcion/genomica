@@ -4,9 +4,10 @@ export default function Attachments() {
     return (
         <div style={{width: '1080px', margin: '10px auto'}}>
             <h1>Payment details</h1>
-            <p> BANK: PEKAO SA</p>
+            <p>Payment details will be shared later</p>
+            {/* <p> BANK: PEKAO SA</p>
             <p>SWIFT CODE: PKOPPLPW</p>
-            <p>IBAN PL: 90 1240 4722 1111 0000 4854 4715</p>
+            <p>IBAN PL: 90 1240 4722 1111 0000 4854 4715</p> */}
 
             <h3>Declarations</h3>
             <p></p>

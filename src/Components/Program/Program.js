@@ -3,7 +3,6 @@ import './Program.scss';
 import Element from './ProgramElement/ProgramElement';
 import TitleComponent from '../TitleComponent/TitleComponent';
 import { ProgramData } from '../../Utils/Data';
-import program from '../../Assets/program/schedule.jpg'
 
 
 export default function Program() {

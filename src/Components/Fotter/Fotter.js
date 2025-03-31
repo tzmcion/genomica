@@ -22,20 +22,20 @@ const social_links = [
 
 const speakers_links = [
   {
-    name: 'Szczepinska',
-    path:"https://cezamat.eu/o-nas/zespol/teresa-szczepinska/"
+    name: 'Speaker #1',
+    path:"https://izp.wnz.cm.uj.edu.pl/pl/blog/covid-19-memes-and-nepal/"
   },
   {
-    name: 'Chyliński',
-    path:'https://binoz.p.lodz.pl/pl/krzysztof-chylinski'
+    name: 'Speaker #2',
+    path:'https://izp.wnz.cm.uj.edu.pl/pl/blog/covid-19-memes-and-nepal/'
   },
   {
-    name:'Kachamakova',
-    path:'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3656957/'
+    name:'Speaker #3',
+    path:'https://izp.wnz.cm.uj.edu.pl/pl/blog/covid-19-memes-and-nepal/'
   },
   {
-    name:'Pękowska',
-    path:'https://nencki.edu.pl/pl/people/pekowska-aleksandra/'
+    name:'Speaker #4',
+    path:'https://izp.wnz.cm.uj.edu.pl/pl/blog/covid-19-memes-and-nepal/'
   }
 ];
 
@@ -95,7 +95,7 @@ export default function Fotter({links}) {
             </div>
             <div className='Footer-Links Footer-Copyright'>
               <img src={Logo} alt='logo' />
-              <p>&copy; 2024 genomica.pl</p>
+              <p>&copy; 2025 genomica.pl</p>
               <p>Authors: <a href="https://www.linkedin.com/in/kamil-kozik-a1447a220/">Kamil</a> && <a href='https://www.linkedin.com/in/tymoteusz-apriasz-2ba8501a6/'>Tymoteusz</a></p>
             </div>
           </div>
