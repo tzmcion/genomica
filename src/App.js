@@ -26,7 +26,7 @@ const links = [
     name:"Program"
   },
   {
-    path:"https://docs.google.com/forms/d/1ZjV-PIv8Y9WDxcyuI_vrxldhMIBJiJPAu30pV5S-HRk/viewform?edit_requested=true",
+    path:"https://docs.google.com/forms/d/e/1FAIpQLScaB2zFk2D35EY8bfM58Buu2TZw66aXiWGEGgTmaIiQoDIIwA/viewform?fbclid=IwY2xjawJYzERleHRuA2FlbQIxMAABHXaZqlEYtLJ88ku29Gl5bGBqwsH9K5OlNfyTKwMlyFvkuNMHmVbGwvOi9w_aem_am5WzHoOtQTv--ljmMkUrg",
     element:<></>,
     name:"Attend"
   },

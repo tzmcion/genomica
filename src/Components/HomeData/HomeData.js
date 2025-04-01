@@ -1,57 +1,29 @@
 import React from 'react'
 import './HomeData.scss';
+import PhotoCard from "../edCard/edCard"
 
-function Icon({title}){
-    return(
-        <li className='Up'>
-            <span className='Up-Icon'>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path fill="none" d="M0 0h24v24H0z" />
-                    <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" fill="currentColor" />
-                </svg>
-            </span>
-            <span className='Up-Title'>{title}</span>
-        </li>
-    )
-}
+import img1 from "../../Assets/past_editions/481077039_1151200236519087_5081532108870179981_n.jpg";
+import img2 from "../../Assets/past_editions/482069004_1151200259852418_79356086366381026_n.jpg";
+import img3 from "../../Assets/past_editions/482053366_1151200066519104_658439242551520061_n.jpg";
+import img4 from "../../Assets/past_editions/482083519_1151200026519108_2775271662465460893_n.jpg";
+import img5 from "../../Assets/past_editions/482200983_1151199446519166_1724202758256782127_n.jpg";
+import img6 from "../../Assets/past_editions/482206145_1151201286518982_4235337224411554159_n.jpg";
 
-function Ticket({type,price, color, cons, children}){
-
-    const renderCons = () =>{
-        return cons.map((el,index) =>{
-            return <Icon key={`${type}${index}`} title={el}/>;
-        })
-    }
-
-    return (
-    <div className='HomeData-Register-Fast-d'>
-        <div className={`Band Band-${color}`}><p>{price}zl</p></div>
-        <div className='Data'>
-            <h2>{type}</h2>
-            <h3>{children}</h3>
-            <ul>
-                {renderCons()}
-            </ul>
-            <button onClick={()=>{window.location = "https://docs.google.com/forms/d/1ZjV-PIv8Y9WDxcyuI_vrxldhMIBJiJPAu30pV5S-HRk/viewform?edit_requested=true";}}>Register</button>
-        </div>
-    </div>);
-}
+import img_2019_1 from "../../Assets/past_editions/e2023_1.jpg";
+import img_2019_2 from "../../Assets/past_editions/e2023_2.jpg";
+import img_2019_3 from "../../Assets/past_editions/e_2023_3.jpg";
+import img_2019_4 from "../../Assets/past_editions/e_2023_4.jpg";
+import img_2019_5 from "../../Assets/past_editions/e_2023_5.jpg";
+import img_2019_6 from "../../Assets/past_editions/e_2023_6.jpg";
 
 export default function HomeData() {
   return (
     <div className='HomeData'>
         <div className='HomeData-Register'>
-            <h1>Join us as a speaker or attendent!</h1>
+            <h1>Join us, let's spend this few days together!</h1>
             <div className='HomeData-Register-Fast'>
-                <Ticket type={'Speaker'} color='Green' cons={['Acces to all meetings','Speaker pass', 'Gadgets']} price={120}>
-                    As a speaker you will lead the talk about topics you work with.
-                </Ticket>
-                {/* <Ticket type={'Student'} color='Red' cons={['Acces to all meetings','Gadgets','Only for UJ students']} price={120}>
-                    As a student you can acces all the talks ass the listener in lower price!
-                </Ticket> */}
-                <Ticket type={'Member'} color='Blue' cons={['Acces to all meetings', 'Gadgets',]} price={120}>
-                    As a member you can acces all the talks and help to grow the science!
-                </Ticket>
+                <PhotoCard img={[img1,img2, img3, img4, img5, img6]} big_title={"Genomica 2024"} title={"Our edition from callendar year 2024"} />
+                <PhotoCard img={[img_2019_1,img_2019_2,img_2019_3,img_2019_4,img_2019_5,img_2019_6]} big_title={"Genomica 2019"} title={"Far Far away in 2019 ;)"} />
             </div>
         </div>
     </div>
