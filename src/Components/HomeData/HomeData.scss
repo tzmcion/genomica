@@ -200,19 +200,21 @@
             .HomeData-Register-Fast{
                 width: 100%;
             }
-            width: 600px;
+            width: 960px;
         }
     }
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:900px){
     .HomeData{
+        height: 500px;
         .HomeData-Register{
             width: 100%;
             h1{
                 font-size: 20px;
             }
             .HomeData-Register-Fast{
+                margin-top: 60px;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
