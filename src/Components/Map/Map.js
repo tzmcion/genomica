@@ -15,11 +15,11 @@ export default function Map() {
         </TitleComponent>
         <div className='Map-Container'>
             <div className='Map-Data'>
-                <h3><span>Address: </span>Institute of Zoology</h3>
+                <h3><span>Address: </span>Institute of Zoology and Biomedical Research</h3>
                 <h4><span></span>of the Jagiellonian University</h4>
                 <p><span></span>st. Gronostajowa 9</p>
                 <p><span></span>30-387 Cracow</p>
-                <p className='Map-margin'><span>E-mail: </span>genomica.uj@gmail.com</p>
+                <p className='Map-margin'><span>E-mail: </span>genomica.uj.krakow@gmail.com</p>
                 <p className='Map-margin'><span>Institute: </span><a href="https://izibb.binoz.uj.edu.pl/en_GB/" target='_blank' rel='noreferrer'>IZIBB website</a></p>
             </div>
             <div className='Map-Map'>

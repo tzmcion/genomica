@@ -1,6 +1,18 @@
 .Rodo{
     width:1080px;
     margin: 10px auto;
+    ul{
+        li{
+            a{
+                text-decoration: none;
+                color: rgb(61, 164, 232);
+                &:hover{
+                    transition: 0.1s;
+                    color: rgb(255, 190, 69);
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (max-width:1080px){

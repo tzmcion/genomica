@@ -1,7 +1,7 @@
 import React, {useState,useEffect} from 'react'
 import './Rodo.scss'
 
-import Regulations_txt from './Regulations.txt'
+import Regulations_txt from './Regulations_new.txt'
 import Rodo_txt from './Rodo.txt'
 
 export default function Rodo() {
@@ -28,7 +28,16 @@ export default function Rodo() {
 
   return (
     <div className='Rodo'>
+        <ul>
+            <li><a href="/Regulations_9.pdf" download >Regulations 9th edition</a></li>
+            <li><a href="/Regulations_8.txt" download >Regulations 8th edition</a></li>
+            <li><a href="/Rodo.txt" download >RODO</a></li>
+        </ul>
+        <hr />
+        <hr />
         {texts.t1}
+        <hr/>
+        <hr/>
         {texts.t2}
     </div>
   )

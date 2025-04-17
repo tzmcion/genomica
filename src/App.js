@@ -26,7 +26,7 @@ const links = [
     name:"Program"
   },
   {
-    path:"https://docs.google.com/forms/d/e/1FAIpQLScaB2zFk2D35EY8bfM58Buu2TZw66aXiWGEGgTmaIiQoDIIwA/viewform?fbclid=IwY2xjawJYzERleHRuA2FlbQIxMAABHXaZqlEYtLJ88ku29Gl5bGBqwsH9K5OlNfyTKwMlyFvkuNMHmVbGwvOi9w_aem_am5WzHoOtQTv--ljmMkUrg",
+    path:"https://forms.office.com/Pages/ResponsePage.aspx?id=6yYO676_0keekOvSQm2863R3QQBvrj5BlNXcH2fGRgBUQkVCNUFDODJPN0FIRzJHRDE0WDJWWUxJWS4u",
     element:<></>,
     name:"Attend"
   },
