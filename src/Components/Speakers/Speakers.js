@@ -21,9 +21,9 @@ export default function Speakers() {
         </TitleComponent>
       </div>
       <div className='Speakers-Container'>
-        <SpeakerCard title='dr Anna Kordala' img={aniaImage}>dr Anna Kordala</SpeakerCard>
-        <SpeakerCard title='prof. A. Valance Washington' img={walanseImage}>prof. A. Valance Washington</SpeakerCard>
-        <SpeakerCard title='prof. Peter McCourt' img={peterImage}>prof. Peter McCourt</SpeakerCard>        
+        <SpeakerCard title='dr Anna Kordala' img={aniaImage}>geneticist, science communicator</SpeakerCard>
+        <SpeakerCard title='prof. A. Valance Washington' img={walanseImage}>professor at Oakland University studying platelet-immune interactions </SpeakerCard>
+        <SpeakerCard title='prof. Peter McCourt' img={peterImage}>Biochemist & researcher at UiT in Norway</SpeakerCard>        
     
       </div>
     </div>
