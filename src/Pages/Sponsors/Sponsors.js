@@ -9,6 +9,8 @@ import ependorf from '../../Assets/program/ependorf.png';
 import inSilico from '../../Assets/program/InSilico.png';
 import labjot from '../../Assets/program/LabJOT.jpg'
 import genxone from '../../Assets/program/genxone.png'
+import corpus from '../../Assets/program/corpus.jpg'
+import promega from '../../Assets/program/promega.png'
 
 
 export default function Sponsors() {
@@ -28,6 +30,9 @@ export default function Sponsors() {
       </div>
       <div className='Sponsors-List'>
         <Sponsor title='Lab-JOT' image = {labjot} />
+        <Sponsor title='Corpus Mind' image = {corpus} />
+        <Sponsor title='Promega' image = {promega} />
+
       </div>
 
       
