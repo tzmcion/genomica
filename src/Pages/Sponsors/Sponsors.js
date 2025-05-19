@@ -28,7 +28,6 @@ export default function Sponsors() {
       </div>
       <div className='Sponsors-List'>
         <Sponsor title='Lab-JOT' image = {labjot} />
-        <Sponsor title='genXone' image = {genxone} />
       </div>
 
       
