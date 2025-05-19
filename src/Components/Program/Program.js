@@ -18,10 +18,11 @@ export default function Program() {
             <TitleComponent>
                 <p>Our Program</p>
                 <p>What will it look like?</p>
-                <p>Please check our program and join as many events as you crave!</p>
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                {/* <p>Please check our program and join as many events as you crave!</p> */}
+                {/* <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <img src={programImage} alt='Conference Program' style={{ maxWidth: '100%', height: 'auto' }} />
-                </div>
+                </div> */}
+                {renderElements()}
             </TitleComponent>
             
         </div>
