@@ -3,7 +3,12 @@ import './Speakers.scss'
 import SpeakerCard from './SpeakerCard/SpeakerCard'
 import TitleComponent from '../TitleComponent/TitleComponent'
 
-import template from '../../Assets/speakers/speaker_template.png'
+import awImage from '../../Assets/speakers/AW.jpeg';
+import aniaImage from '../../Assets/speakers/ania.jpeg';
+import walanseImage from '../../Assets/speakers/walanse.jpeg';
+import peterImage from '../../Assets/speakers/peter.jpeg';
+
+
 
 export default function Speakers() {
   return (
@@ -16,9 +21,12 @@ export default function Speakers() {
         </TitleComponent>
       </div>
       <div className='Speakers-Container'>
-        <SpeakerCard title='Speaker #1' img={template}>dr Anna Kordala</SpeakerCard>
-        <SpeakerCard title='Speaker #2' img={template}>prof. A. Valance Washington</SpeakerCard>
-        <SpeakerCard title='Speaker #3' img={template}>prof. Peter McCourt</SpeakerCard>
+        <SpeakerCard title='Speaker #1' img={aniaImage}>dr Anna Kordala</SpeakerCard>
+        <SpeakerCard title='Speaker #2' img={walanseImage}>prof. A. Valance Washington</SpeakerCard>
+        <SpeakerCard title='Speaker #3' img={peterImage}>prof. Peter McCourt</SpeakerCard>
+        <SpeakerCard title='Speaker #3' img={awImage}>Main character</SpeakerCard>
+
+        
     
       </div>
     </div>
