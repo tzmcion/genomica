@@ -22,21 +22,17 @@ const social_links = [
 
 const speakers_links = [
   {
-    name: 'Speaker #1',
-    path:"https://izp.wnz.cm.uj.edu.pl/pl/blog/covid-19-memes-and-nepal/"
+    name: 'dr Anna Kordala',
+    path:"https://www.fsma.pl/osoba/anna-kordala/"
   },
   {
-    name: 'Speaker #2',
-    path:'https://izp.wnz.cm.uj.edu.pl/pl/blog/covid-19-memes-and-nepal/'
+    name: 'prof. A. Valance Washington',
+    path: "https://oakland.edu/biology/directory/washington/"
   },
   {
-    name:'Speaker #3',
-    path:'https://izp.wnz.cm.uj.edu.pl/pl/blog/covid-19-memes-and-nepal/'
+    name:'prof. Peter McCourt',
+    path:'https://en.uit.no/ansatte/person?p_document_id=41934'
   },
-  {
-    name:'Speaker #4',
-    path:'https://izp.wnz.cm.uj.edu.pl/pl/blog/covid-19-memes-and-nepal/'
-  }
 ];
 
 const uj_links = [
