@@ -16,10 +16,10 @@ export default function Speakers() {
         </TitleComponent>
       </div>
       <div className='Speakers-Container'>
-        <SpeakerCard title='Speaker #1' img={template}>Speakers will be shortly revealed</SpeakerCard>
-        <SpeakerCard title='Speaker #2' img={template}>Speakers will be shortly revealed</SpeakerCard>
-        <SpeakerCard title='Speaker #3' img={template}>Speakers will be shortly revealed</SpeakerCard>
-        <SpeakerCard title='Speaker #4' img={template}>Speakers will be shortly revealed</SpeakerCard> 
+        <SpeakerCard title='Speaker #1' img={template}>dr Anna Kordala</SpeakerCard>
+        <SpeakerCard title='Speaker #2' img={template}>prof. A. Valance Washington</SpeakerCard>
+        <SpeakerCard title='Speaker #3' img={template}>prof. Peter McCourt</SpeakerCard>
+    
       </div>
     </div>
   )
