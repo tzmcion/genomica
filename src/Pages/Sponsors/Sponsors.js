@@ -9,7 +9,7 @@ import ependorf from '../../Assets/program/ependorf.png';
 import inSilico from '../../Assets/program/InSilico.png';
 import labjot from '../../Assets/program/LabJOT.jpg'
 import genxone from '../../Assets/program/genxone.png'
-import corpus from '../../Assets/program/corpus.jpg'
+import corpus from '../../Assets/program/corpus.png'
 import promega from '../../Assets/program/promega.png'
 
 
