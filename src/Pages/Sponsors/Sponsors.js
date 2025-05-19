@@ -31,7 +31,7 @@ export default function Sponsors() {
       <div className='Sponsors-List'>
         <Sponsor title='Lab-JOT' image={labjot} link="https://www.labjot.com" />
         <Sponsor title='Corpus Mind' image={corpus} link="https://www.corpusmind.pl" />
-        <Sponsor title='Promega' image={promega} link="https://www.pl.promega.com" />
+        <Sponsor title='Promega' image={promega} link="https://pl.promega.com/" />
       </div>
       
     </div>

@@ -1,28 +1,43 @@
-.Sponsor{
-    width:250px;
+.Sponsor-Link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  .Sponsor {
+    width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    h2{
-        margin: 0;
-        padding: 0;
-        font-size: 25px;
-        height: 40px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        color: #283157;
-        background-color: #fffaf5;
-        font-weight: 500;
-        border: 2px double rgba(14, 51, 94, 0.068);
-        z-index: 1;
+  
+    h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 25px;
+      height: 40px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #283157;
+      background-color: #fffaf5;
+      font-weight: 500;
+      border: 2px double rgba(14, 51, 94, 0.068);
+      z-index: 1;
     }
-    canvas{
-        transform: translateY(-20px);
-        z-index: 0;
-        background: linear-gradient(#ffd00017,transparent);
+  
+    canvas {
+      transform: translateY(-20px);
+      z-index: 0;
+      background: linear-gradient(#ffd00017, transparent);
     }
-}
+  }
+  
