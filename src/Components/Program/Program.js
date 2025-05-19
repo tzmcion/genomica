@@ -23,9 +23,7 @@ export default function Program() {
                     <img src={programImage} alt='Conference Program' style={{ maxWidth: '100%', height: 'auto' }} />
                 </div>
             </TitleComponent>
-            <div className='Program-List'>
-                {renderElements()}
-            </div>
+            
         </div>
     )
 }
