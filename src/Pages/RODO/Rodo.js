@@ -33,6 +33,9 @@ export default function Rodo() {
             <li><a href="/Regulations_8.txt" download >Regulations 8th edition</a></li>
             <li><a href="/Rodo.txt" download >RODO</a></li>
         </ul>
+        
+        
+
         <hr />
         <hr />
         {texts.t1}
