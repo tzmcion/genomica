@@ -13,17 +13,17 @@ export default function Attachments() {
             <h3>Declarations</h3>
             <p></p>
             <p>Below you can find links for the declarations examples. </p>
-            <p>Send them to our e-mail address with your abstracts: <b>genomica.uj.krakow@gmail.com</b></p>
+            <p>Send them to our e-mail address with your abstracts: <b>genomica@uj.edu.pl</b></p>
            
 
             {/* <a href="https://drive.google.com/file/d/1l2M2ijuATs29zk0ppKyU-NyqmcLdRd3z/view?usp=sharing"> Declaration template [PL]</a> */}
             <p></p>
-            <a href="https://drive.google.com/file/d/1vTzGFE_JzTVs3cQcaV_1UadgdGm6y-bK/view?usp=sharing"> Declaration template [EN]</a>
+            <a href="https://docs.google.com/document/d/1jlBaXUM4kx60UMuxXZ-wdQm3KRYUcnLj_x8eRpqe5yQ/edit?usp=sharing" target='_blank'> Declaration template [EN]</a>
 
             <h3>Abstract template</h3>
             {/* <a href="https://drive.google.com/file/d/1lRZEhzLxxXjSO9998yAdFRQax8GanX6P/view?usp=sharing>" >Abstract template [PL]</a> */}
             <p></p>
-            <a href="https://drive.google.com/file/d/19uqL3oknAzRIDj-KYoIu3Jw6X19baFJn/view?usp=sharing">Abstract template [EN]</a>
+            <a href="https://drive.google.com/file/d/19uqL3oknAzRIDj-KYoIu3Jw6X19baFJn/view?usp=sharing" target='_blank'>Abstract template [EN]</a>
 
         <ul>
         <h3>The conference fee is 120 PLN and includes:</h3>

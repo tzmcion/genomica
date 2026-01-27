@@ -13,7 +13,9 @@ export default function Sponsor({image,title, link}) {
       <a href={link} target="_blank" rel="noopener noreferrer" className="Sponsor-Link">
         <div className='Sponsor'>
           <h2>{title}</h2>
-          <RopeImage width={250} height={150} src={image} options={options} />
+          <div className='Rope_Sponsor'>
+            <RopeImage width={250} height={150} src={image} options={options} />
+          </div>
         </div>
       </a>
     );

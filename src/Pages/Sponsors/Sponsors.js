@@ -25,14 +25,14 @@ export default function Sponsors() {
       </TitleComponent>
       <div className='Sponsors-List'>
         <Sponsor title={'A&A Biotechnology'} image={aa_bio} link="https://aabiot.com" />
-        <Sponsor title={'Eppendorf'} image={ependorf} link="https://www.eppendorf.com" />
+        {/* <Sponsor title={'Eppendorf'} image={ependorf} link="https://www.eppendorf.com" /> */}
         {/* <Sponsor title='KNSB InSilico' image={inSilico} link="https://insilico.knsb.pl" /> */}
       </div>
-      <div className='Sponsors-List'>
+      {/* <div className='Sponsors-List'>
         <Sponsor title='Lab-JOT' image={labjot} link="https://www.labjot.com" />
         <Sponsor title='Corpus Mind' image={corpus} link="https://www.corpusmind.pl" />
         <Sponsor title='Promega' image={promega} link="https://pl.promega.com/" />
-      </div>
+      </div> */}
       
     </div>
   )

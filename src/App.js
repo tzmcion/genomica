@@ -26,7 +26,7 @@ const links = [
     name:"Program"
   },
   {
-    path:"https://forms.office.com/Pages/ResponsePage.aspx?id=6yYO676_0keekOvSQm2863R3QQBvrj5BlNXcH2fGRgBUQkVCNUFDODJPN0FIRzJHRDE0WDJWWUxJWS4u",
+    path:"https://forms.office.com/Pages/ResponsePage.aspx?id=6yYO676_0keekOvSQm2863bOxJRbfDBPipj0K9bWj05UNFBOMEk5U0RZTUJBSjRKOVZaTU1RQks5SS4u",
     element:<></>,
     name:"Attend"
   },
