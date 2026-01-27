@@ -15,12 +15,12 @@ export default function Map() {
         </TitleComponent>
         <div className='Map-Container'>
             <div className='Map-Data'>
-                <h3><span>Address: </span>Institute of Zoology and Biomedical Research</h3>
+                <h3><span>Address: </span>Faculty of Biochemistry, Biophysics and Biotechnology </h3>
                 <h4><span></span>of the Jagiellonian University</h4>
-                <p><span></span>st. Gronostajowa 9</p>
+                <p><span></span>st. Gronostajowa 7</p>
                 <p><span></span>30-387 Cracow</p>
-                <p className='Map-margin'><span>E-mail: </span>genomica.uj.krakow@gmail.com</p>
-                <p className='Map-margin'><span>Institute: </span><a href="https://izibb.binoz.uj.edu.pl/en_GB/" target='_blank' rel='noreferrer'>IZIBB website</a></p>
+                <p className='Map-margin'><span>E-mail: </span>genomica@uj.edu.pl</p>
+                <p className='Map-margin'><span>Institute: </span><a href="https://wbbib.uj.edu.pl/en_US/wydzial/o-wydziale " target='_blank' rel='noreferrer'>WBBIB website</a></p>
             </div>
             <div className='Map-Map'>
               <div className='Map-Image'>
@@ -28,7 +28,7 @@ export default function Map() {
                 <h5>We are waiting for you</h5>
                 <h6>Genomica Team</h6>
                 <img src={genetics} alt='genetics' className='Map-IMG'/>
-                <a href="https://www.google.com/maps/place/Instytut+Zoologii+i+Bada%C5%84+Biomedycznych+Uniwersytetu+Jagiello%C5%84skiego/@50.0274692,19.8993134,17z/data=!4m10!1m2!2m1!1szoology+institute+jagiellonian+university!3m6!1s0x47165c89a8712ba7:0x378a3a58732149f1!8m2!3d50.0274623!4d19.9007249!15sCil6b29sb2d5IGluc3RpdHV0ZSBqYWdpZWxsb25pYW4gdW5pdmVyc2l0eZIBCnVuaXZlcnNpdHngAQA!16s%2Fg%2F12hlz5sgh?hl=pt-PT&entry=ttu"
+                <a href="https://maps.app.goo.gl/AEUkjz4tceFT6z5d8"
                   target='_blank'
                   rel='noreferrer'>
                     <img src={mappng} alt='map' />

@@ -65,7 +65,7 @@ export default function Banner() {
   },[create_animations,dimensions,banner_hight])
 
   const handleClick = (e) =>{
-    create_animations(e,['#99C2A2',"#FFD166","#93B1A7","#EF476F"]);
+    create_animations(e,['#133C55',"#DB5461","#686963","#FFF"]);
   }
 
   const handleMouseMove = (e) =>{
@@ -90,7 +90,7 @@ export default function Banner() {
   }
 
   return (
-    <div className={`Banner ${banner_hight > 300 ? 'Big' : ''}`} onMouseMove={handleMouseMove} onMouseDown={handleMouseDown} style={{backgroundImage:`url(${bg})`,height:`${banner_hight}px`}} onClick={handleClick} ref={banner_ref}>
+    <div className={`Banner ${banner_hight > 300 ? 'Big' : ''}`} onMouseMove={handleMouseMove} onMouseDown={handleMouseDown} style={{height:`${banner_hight}px`}} onClick={handleClick} ref={banner_ref}>
       <canvas ref={canvas_ref} width={dimensions.width} height={banner_hight+200}></canvas>
       <div className='Banner-Data'>
         <img src={banner} alt='bann' className='genomica'/>

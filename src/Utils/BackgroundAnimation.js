@@ -29,7 +29,7 @@ class Field{
 
 
 class BackgroundAnimation{
-    static colors = ['#598F78','#4A6785','#4A6785','#BEB8EB'];
+    static colors = ['#FFB7C3',"#EEEEFF","#CBBAED","#FFB7C3"];
     /**
      * Konstruktor bierze za argument ctx, szerokosc okna, wysokosc okna
      * @param {CanvasRenderingContext2D} ctx 
