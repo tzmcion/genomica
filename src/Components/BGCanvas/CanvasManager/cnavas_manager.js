@@ -22,7 +22,9 @@ class canvas_manager{
             this.ropes.map(rope => rope.update(this.width,this.height))
         }
         this.__private_start_animation = this.__private_start_animation.bind(this);
-        this.__private_start_animation();
+        if(this.animation_id == 0){
+            this.__private_start_animation();
+        }
     }
 
     /**

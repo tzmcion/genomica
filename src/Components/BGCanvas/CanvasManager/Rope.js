@@ -109,8 +109,8 @@ class Rope{
         for(let a = 0; a < this.points.length; a++){
             const point = this.points[a];
             if(point.is_on_point(x,y,1)){
-                point.px = point.x + 7;
-                point.py = point.y + 7;
+                point.px = point.x + 10;
+                point.py = point.y + 10;
                 break;
             }
         }
