@@ -208,11 +208,15 @@
 
 @media only screen and (max-width:900px){
     .HomeData{
-        height: 500px;
+        height: 800px;
         .HomeData-Register{
             width: 100%;
             h1{
+                margin-top: 120px;
                 font-size: 20px;
+            }
+            .Sponsors-List{
+                transform: scale(0.7);
             }
             .HomeData-Register-Fast{
                 margin-top: 60px;
