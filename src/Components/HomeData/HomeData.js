@@ -16,6 +16,9 @@ import img_2019_4 from "../../Assets/past_editions/e_2023_4.jpg";
 import img_2019_5 from "../../Assets/past_editions/e_2023_5.jpg";
 import img_2019_6 from "../../Assets/past_editions/e_2023_6.jpg";
 
+import Sponsor from '../Sponsor/Sponsor';
+import aa_bio from '../../Assets/program/sponsor_aa_biotechnology_2.png'
+
 export default function HomeData() {
   return (
     <div className='HomeData'>
@@ -24,6 +27,12 @@ export default function HomeData() {
             <div className='HomeData-Register-Fast'>
                 <PhotoCard img={[img1,img2, img3, img4, img5, img6]} big_title={"Genomica 2024"} title={"Our edition from callendar year 2024"} />
                 <PhotoCard img={[img_2019_1,img_2019_2,img_2019_3,img_2019_4,img_2019_5,img_2019_6]} big_title={"Genomica 2019"} title={"Far Far away in 2019 ;)"} />
+            </div>
+            <h1>Our partners for 2026th edition:</h1>
+            <div className='Sponsors-List'>
+              <Sponsor title={'A&A Biotechnology'} image={aa_bio} link="https://aabiot.com" />
+              {/* <Sponsor title={'Eppendorf'} image={ependorf} link="https://www.eppendorf.com" /> */}
+              {/* <Sponsor title='KNSB InSilico' image={inSilico} link="https://insilico.knsb.pl" /> */}
             </div>
         </div>
     </div>

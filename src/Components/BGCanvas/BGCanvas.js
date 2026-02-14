@@ -35,10 +35,10 @@ export default function BGCanvas({src,width,height,options = default_options, cl
   },[src])
 
   useEffect(()=>{
-    if(file_blob && canvas_ref.current && options){
+    if(file_blob && canvas_ref.current && options && animator == null){
       set_animator(new Canvas_manager(canvas_ref.current,dimensions.width,dimensions.height,file_blob,options));
     }
-  },[dimensions,file_blob,options]);
+  },[dimensions,file_blob,options, animator]);
 
   useEffect(()=>{
     return () => {animator && animator.destroy();}

@@ -28,11 +28,12 @@ export default function Rodo() {
 
   return (
     <div className='Rodo'>
+        <h2>Downloads Section:</h2>
         <ul>
-            <li><a href="/Klauzula informacyjna - załącznik do Regulaminu Konferencji_MT(07.01.2025) (2).docx" download>RODO 10th edition</a></li>
-            <li><a href="/Regulations_9.pdf" download >Regulations 9th edition</a></li>
-            <li><a href="/Regulations_8.txt" download >Regulations 8th edition</a></li>
-            <li><a href="/Rodo.txt" download >RODO</a></li>
+            <li><a href="/Klauzula informacyjna - załącznik do Regulaminu Konferencji_MT(07.01.2025) (2).docx" download><span className='Curr_doc'>(Valid document)</span> RODO 10th edition</a></li>
+            <li><a href="/Regulations_9.pdf" download ><span className='Curr_doc'>(Valid document)</span> Regulations 9th/10th edition</a></li>
+            <li><a href="/Regulations_8.txt" download ><span className='Arch_doc'>(Archival document)</span> Regulations 8th edition</a></li>
+            <li><a href="/Rodo.txt" download ><span className='Arch_doc'>(Archival document)</span> RODO 8th/9th edition</a></li>
         </ul>
         
         

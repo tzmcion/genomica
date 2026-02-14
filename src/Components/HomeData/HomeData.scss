@@ -1,6 +1,6 @@
 .HomeData{
     position: relative;
-    height:400px;
+    height:600px;
     padding-top: 30px;
     &::after{
         content: '';
@@ -28,9 +28,10 @@
         }
         .HomeData-Register-Fast{
             width:1140px;
-            margin: 40px auto;
+            margin: 20px auto;
             height:300px;
             border-radius: 2px;
+            margin-bottom: -30px;
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
@@ -207,11 +208,15 @@
 
 @media only screen and (max-width:900px){
     .HomeData{
-        height: 500px;
+        height: 800px;
         .HomeData-Register{
             width: 100%;
             h1{
+                margin-top: 120px;
                 font-size: 20px;
+            }
+            .Sponsors-List{
+                transform: scale(0.7);
             }
             .HomeData-Register-Fast{
                 margin-top: 60px;
