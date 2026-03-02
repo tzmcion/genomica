@@ -4,7 +4,7 @@ import './Sponsor.scss'
 
 export default function Sponsor({image,title, link}) {
     const options = {...RopeOptions};
-    options.obj_width = 0.5;
+    options.obj_width = 0.9;
     options.quantity = 13;
     options.gravity = 0.35;
     options.color = 'rgba(0,0,0,0.5)';

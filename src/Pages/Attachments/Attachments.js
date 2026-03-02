@@ -25,12 +25,19 @@ export default function Attachments() {
             <p></p>
             <a href="https://drive.google.com/file/d/19uqL3oknAzRIDj-KYoIu3Jw6X19baFJn/view?usp=sharing" target='_blank'>Abstract template [EN]</a>
 
-        <h3>Participation in the conference will involve a fee, the amount of which will be announced soon. The fee will include:</h3>
+        <h3>Participation in the conference will involve a fee of 120 PLN. The fee will include:</h3>
         <ul>
             <li>Conference packages (containing T-shirts, bags, folders, pens, and sponsor materials)</li>
             <li>A two-course lunch on Saturday</li>
             <li>Sandwiches, drinks, and sweet snacks during coffee breaks</li>
             <li>Participation diplomas and certificates</li>
+        </ul>
+        <h4>For an additional fee of 40 PLN, you can also purchase lunch for Sunday. In that case, the total conference fee is 160 PLN</h4>
+        <h3>If you have any questions feel free to contact:</h3>
+        <ul>
+            <li>Us directly: <b>genomica@uj.edu.pl</b></li>
+            <li>Administration office: <b>sekretariat.wbbib@uj.edu.pl</b>; phone number: <b>+48 12 664 60 02</b></li>
+            <li>Finance Section: <b>finanse.wbbib@uj.edu.pl</b></li>
         </ul>
         </div>
     )

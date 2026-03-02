@@ -169,14 +169,14 @@ class EndPoint extends Point{
     constructor(x,y,vx,vy,image,options){
         super(x,y,vx,vy,options);
         this.image = null;
-        this.image = new Image(100,100);
+        this.image = new Image(150,150);
         this.image.src = image;
         if(typeof image === 'object'){
             this.image = null;
             this.is_static = true;
         }
-        this.x_size=70;
-        this.y_size=70;
+        this.x_size=100;
+        this.y_size=100;
     }
 
     render(ctx){

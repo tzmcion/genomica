@@ -25,6 +25,7 @@ export default function Sponsors() {
       </TitleComponent>
       <div className='Sponsors-List'>
         <Sponsor title={'A&A Biotechnology'} image={aa_bio} link="https://aabiot.com" />
+        <Sponsor title={'Lab-Jot'} image={labjot} link="https://www.labjot.com/" />
         {/* <Sponsor title={'Eppendorf'} image={ependorf} link="https://www.eppendorf.com" /> */}
         {/* <Sponsor title='KNSB InSilico' image={inSilico} link="https://insilico.knsb.pl" /> */}
       </div>
