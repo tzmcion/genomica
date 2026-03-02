@@ -1,34 +1,20 @@
-Zgoda na przetwarzanie danych osobowych
-
-<strong>Zgodnie z art. 13 Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 
-27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej „RODO”) Uniwersytet Jagielloński informuje, że:</strong>
-
-                1. Administratorem Pani/Pana danych osobowych jest Uniwersytet Jagielloński, ul. Gołębia 24, 31-007 Kraków, reprezentowany przez Rektora UJ.
-
-                2. Uniwersytet Jagielloński wyznaczył Inspektora Ochrony Danych, ul. Gołębia 24, 30-007 Kraków, pokój nr 5. Kontakt z Inspektorem możliwy jest przez e-mail: iod@uj.edu.pl lub pod nr telefonu 12 663 12 25 – od poniedziałku do piątku, w godzinach od 8:00 do 15:00.
-
-                3. Pani/Pana dane osobowe przetwarzane będą w celu:
-
-        a) zarejestrowania udziału w VIII Ogólnopolskiej Konferencji Genetycznej „Genomica”, organizowanej przez Koło Studentów Biotechnologii „Mygen” w dniach 17-19 maja 2024 roku w Instytucie Zoologii i Badań Biomedycznych na Wydziale Biologii Uniwersytetu Jagiellońskiego, a także działań związanych z organizacją konferencji, komunikacją z uczestnikami, udokumentowaniem przebiegu wydarzenia (sporządzenie listy uczestników i wydawanie zaświadczeń uczestnictwa), oraz w celach archiwalnych;
-        b) przeprowadzenia Fotorelacji Konferencji w celach dokumentacyjnych, informacyjnych, edukacyjnych, reklamy i promocji Organizatora oraz Konferencji, archiwizacji – w odniesieniu danych osobowych Uczestników w postaci wizerunku, 
-           na podstawie art. 6 ust. 1it. b RODO, na postawie umowy zawartej poprzez akceptację Regulaminu.
-
-                4. Podanie przez Panią/Pana danych osobowych jest dobrowolne.
-
-                5. Pani/Pana dane osobowe mogą być udostępnione podmiotom uprawnionym do ich odbioru na podstawie powszechnie obowiązujących przepisów prawa.
-
-                6. Odbiorcami Pani/Pana danych osobowych są podmioty zapewniające wsparcie informatyczne i organizacyjne w organizacji Konferencji Genetycznej „Genomica”.
-
-                7. Pani/Pana dane osobowe nie będą przekazywane do państw trzecich (poza Europejski Obszar Gospodarczy), ani do organizacji międzynarodowych.
-
-                8. Pani/Pana dane osobowe będą przetwarzane przez okres: do czasu odwołania zgody.
-                9. Posiada Pani/Pan prawo do: uzyskania informacji o przetwarzaniu danych osobowych 
-                   i uprawnieniach przysługujących zgodnie z RODO, dostępu do treści swoich danych oraz ich sprostowania, a także prawo do usunięcia danych osobowych ze zbiorów administratora (chyba że dalsze przetwarzanie jest konieczne dla wykonania obowiązku prawnego albo 
-                   w celu ustalenia, dochodzenia lub obrony roszczeń), oraz prawo do ograniczenia przetwarzania, przenoszenia danych, wniesienia sprzeciwu wobec przetwarzania – w przypadkach i na warunkach określonych w RODO.
-
-                10. Jeżeli przetwarzanie odbywa się na podstawie zgody, posiada Pani/Pan również prawo do cofnięcia zgody w dowolnym momencie bez wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Wycofanie zgody na przetwarzanie danych osobowych można przesłać e-mailem na adres: genomica.uj@gmail.com.
-
-                11. Pani/Pana dane osobowe nie będą przedmiotem automatycznego podejmowania decyzji ani profilowania.
-
-                12. Ma Pan/Pani prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych 
-                    w razie uznania, że przetwarzanie Pani/Pana danych osobowych narusza przepisy RODO.
+OBOWIĄZEK INFORMACYJNY
+Przetwarzanie danych osobowych
+(załącznik do Regulaminu Konferencji/Wydarzenia organizowanego przez UJ)
+Zgodnie z art. 13 Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej „RODO”) Uniwersytet Jagielloński informuje, że: 
+    1. Administratorem danych osobowych Uczestnika Konferencji  jest Uniwersytet Jagielloński, ul. Gołębia 24, 31-007 Kraków, reprezentowany przez Rektora UJ. 
+    2. Uniwersytet Jagielloński wyznaczył Inspektora Ochrony Danych. Kontakt z Inspektorem możliwy jest przez e-mail: iod@uj.edu.pl lub pod nr telefonu 12 663 12 25 – w dniach od poniedziałku do piątku, w godzinach od 8:00 do 15:00. 
+    3. Dane osobowe Uczestnika będą przetwarzane w celu: 
+    a) realizacji umowy, której przedmiotem jest udział w Konferencji „Genomica”, a także w celu rejestracji uczestnictwa w Konferencji na postawie umowy zawartej poprzez akceptację Regulaminu (art. 6 ust. 1 lit. b) RODO). Konferencja organizowana jest  w dniach 15.05.2026-17.05.2026 stacjonarnie
+    b) przeprowadzenia Fotorelacji z Konferencji w celach dokumentacyjnych, informacyjnych, edukacyjnych, dydaktycznych, promocji Stron, oraz samej Konferencji, archiwizacji – w odniesieniu danych osobowych Uczestników w postaci wizerunku – na podstawie udzielonego zezwolenia zgodnie z ustawą o prawie autorskim i prawach pokrewnych  na podstawie art. 6 ust. 1 lit. e)  RODO tj. w interesie publicznym jakim jest organizowanie przez uczelnie wyższą konferencji i innych wydarzeń  w związku z art. 11 ustawy prawo o szkolnictwie wyższym i nauce.
+    c) zapewnienia bezpieczeństwa Konferencji zgodnie z obowiązującym w UJ Regulaminem monitoringu wizyjnego dostępnego na stronie https://bip.uj.edu.pl/ oraz obowiązkiem informacyjnym dotyczącym przetwarzania wizerunku w monitoringu wizyjnym dostępnym na stronie https://iod.uj.edu.pl/monitoring-wizyjny na podstawie art. 6 ust. 1 lit. e RODO – w odniesieniu do danych z monitoringu wizyjnego
+    4. Podanie przez Uczestnika danych osobowych:
+    a) w odniesieniu do danych, o których mowa o których mowa w pkt. 3 lit. a powyżej jest konieczne do zawarcia umowy i uczestnictwa w Konferencji;
+    b) w odniesieniu do danych, o których mowa w pkt. 3 lit. b powyżej jest dobrowolne;
+    c) w odniesieniu do danych, o których mowa w pkt. 3 lit. c powyżej jest dobrowolne, ale brak ich podania – z uwagi na obowiązek zapewnienia bezpieczeństwa Uczestników -  skutkuje niemożnością uczestnictwa w Konferencji.
+    5. Dane osobowe Uczestnika podane w formularzu rejestracyjnym nie będą udostępniane osobom trzecim. Dana osobowa Uczestnika w postaci wizerunku może zostać utrwalona na zdjęciach z Konferencji i przetwarzana na stronach internetowych UJ oraz profilach UJ na portalach społecznościowych w sposób umożliwiający dostęp osób trzecich, na cele związane z promocją UJ, w tym na potrzeby relacji z wydarzenia – zgodnie z §6 ust. 1 Regulaminu. 
+    6. Odbiorcami danych osobowych Uczestnika są podmioty zapewniające wsparcie informatyczne w organizacji Konferencji– w tym podmiot dostarczający oprogramowanie służące rejestracji na wydarzenie. 
+    7. Dane osobowe Uczestnika podane w formularzu rejestracyjnym będą przetwarzane do czasu zakończenia Konferencji ,a następnie przez czas przedawnienia roszczeń mogących wyniknąć z uczestnictwa w Konferencji oraz celach archiwalnych . Dana osobowa Uczestnika w postaci wizerunku będzie przetwarzana w ramach fotorelacji z Konferencji na stronach internetowych UJ oraz profilach UJ w portalach społecznościowych do czasu wniesienia sprzeciwu przez Uczestnika. Dane z monitoringu wizyjnego będą przetwarzane maksymalnie przez 3 miesiące. 
+    8. Uczestnik posiada prawo do: uzyskania informacji o przetwarzaniu danych osobowych i uprawnieniach przysługujących zgodnie z RODO, dostępu do treści swoich danych oraz ich sprostowania, a także prawo do usunięcia danych osobowych ze zbiorów administratora (chyba że dalsze przetwarzanie jest konieczne dla wykonania obowiązku prawnego albo w celu ustalenia, dochodzenia lub obrony roszczeń), oraz prawo do ograniczenia przetwarzania, przenoszenia danych, wniesienia sprzeciwu wobec przetwarzania – w przypadkach i na warunkach określonych w RODO. 
+    9. Dane osobowe Uczestnika nie będą przedmiotem automatycznego podejmowania decyzji ani profilowania. 
+    10. Uczestnik posiada prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych w razie uznania, że przetwarzanie jego danych osobowych narusza przepisy RODO. 

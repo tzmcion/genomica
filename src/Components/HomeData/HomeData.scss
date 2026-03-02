@@ -17,6 +17,13 @@
         width:1440px;
         margin: 0px auto;
         height:auto;
+        .Sponsors-List{
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            margin: 10px auto;
+            gap: 20px;
+        }
         h1{
             width:100%;
             text-align: center;
@@ -216,7 +223,10 @@
                 font-size: 20px;
             }
             .Sponsors-List{
-                transform: scale(0.7);
+                width: 100%;
+                transform: scale(0.5);
+                margin: 0;
+                padding: 0;
             }
             .HomeData-Register-Fast{
                 margin-top: 60px;

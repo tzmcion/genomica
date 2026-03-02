@@ -18,6 +18,7 @@ import img_2019_6 from "../../Assets/past_editions/e_2023_6.jpg";
 
 import Sponsor from '../Sponsor/Sponsor';
 import aa_bio from '../../Assets/program/sponsor_aa_biotechnology_2.png'
+import lab_jot from "../../Assets/program/LabJOT.jpg"
 
 export default function HomeData() {
   return (
@@ -31,6 +32,7 @@ export default function HomeData() {
             <h1>Our partners for 2026th edition:</h1>
             <div className='Sponsors-List'>
               <Sponsor title={'A&A Biotechnology'} image={aa_bio} link="https://aabiot.com" />
+              <Sponsor title={'Lab-JOT'} image={lab_jot} link="https://www.labjot.com/" />
               {/* <Sponsor title={'Eppendorf'} image={ependorf} link="https://www.eppendorf.com" /> */}
               {/* <Sponsor title='KNSB InSilico' image={inSilico} link="https://insilico.knsb.pl" /> */}
             </div>
