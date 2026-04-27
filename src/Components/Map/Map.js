@@ -11,7 +11,7 @@ export default function Map() {
         <TitleComponent>
           <h5>We are just around the corner</h5>
           <h2>How to get there?</h2>
-          <h4>Don't get lost in a big city like Cracow, we will miss you if you do :-c</h4>
+          <h4>Don't get lost in a big city like Cracow, here is important information about our conference location</h4>
         </TitleComponent>
         <div className='Map-Container'>
             <div className='Map-Data'>
