@@ -2,13 +2,14 @@
     width: 1440px;
     margin: 0 auto;
     min-height: calc(100vh - 550px);
-    .Sponsors-List{
-        width: 960px;
+    .Sponsors-Listt{
+        width: 100%;
         margin: 20px auto;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 }
 
@@ -21,8 +22,8 @@
 @media only screen and (max-width:1000px) {
     .Sponsors{
         width: 800px;
-        .Sponsors-List{
-            width: 800px;
+        .Sponsors-Listt{
+            width: 100%;
         }
     }
 }
@@ -30,7 +31,7 @@
 @media only screen and (max-width:840px) {
     .Sponsors{
         width: 90%;
-        .Sponsors-List{
+        .Sponsors-Listt{
             width: 100%;
             flex-direction: column;
             align-items: center;

@@ -5,7 +5,7 @@ import dinner from '../Assets/program/dinner.png';
 
 const Program = [
     {
-        day:"23. May",
+        day:"Friday 15th of May",
         events:[
             {
                 title:"Participants registration",
@@ -13,98 +13,126 @@ const Program = [
                 time:"13:00-14:30",
                 speaker:"All attendents",
                 icon:null_icon
-            },           
+            },
             {
-                title:"Inaugural lecture \"From Oxford to Real Life: 10 Carrer Truths I Wish I'd Known Years Ago \"",
-                description:"Opening of the conference with special lecture given from Dr Anna Kordala",
-                time:"14:30-15:30",
-                speaker:"dr Anna Kordala",
+                title:"Conference opening",
+                description:"Let's welcome everyone!",
+                time:"14:30-14:45",
+                speaker:"Organizers",
+                icon:null_icon
+            },
+            {
+                title:"Inaugural lecture",
+                description:"Opening of the conference finishes with a special lecture from Ondrej Stepanek",
+                time:"14:45-15:45",
+                speaker:"PhD Ondrej Stepanek",
                 icon:main_event
+            },
+            {
+                title:"Genomed presentation",
+                description:"A quick word from our partner - Genomed",
+                time:"15:45-16:00",
+                speaker:"Genomed",
+                icon:null_icon
             },
             {
                 title:"First Oral session",
                 description:"Session with quick talks",
-                time:"15:30-16:45",
+                time:"16:20-17:40",
                 speaker:"Multiple speakers",
                 icon:null_icon
             },
             {
                 title:"First poster session",
                 description:"Session where our attendents have time to individually present their recent projects and have a discussion with anyone",
-                time:"17:00-18:00",
+                time:"18:00-19:20",
                 speaker:"All attendents",
                 icon:discussion
             },
         ]
     },
     {
-        day:"24. May",
+        day:"Saturday 16th of May",
         events:[
             {
-                title:"Lecture \"Dissecting Platelet Function Using Functional Genomics\"",
-                description:"A special lecture from Prof. Washington",
+                title:"Special lecture opening the 2-nd day of conference",
+                description:"A special lecture from Dr Mostafa Bakhti",
                 time:"10:00-11:00",
-                speaker:"prof. A. Valance Washington",
+                speaker:"PhD Mostafa Bakhti",
                 icon:main_event
+            },
+            {
+                title:"Bioceltix presentation",
+                description:"A quick word from our partner - Bioceltix",
+                time:"11:00-11:20",
+                speaker:"Bioceltix",
+                icon:null_icon
             },
             {
                 title:"Second poster session",
                 description:"Session where our attendents have time to individually present their recent projects and have a discussion with anyone",
-                time:"11:15-12:30",
+                time:"11:30-13:00",
                 speaker:"All attendents",
                 icon:discussion
             },
             {
+                title:"Lunch break",
+                description:"Attending the Genomica conference is a pathway to many abilities some consider to be mouth watering",
+                time:"13:00-15:00",
+                speaker:"Mrs. Pizza & Mr. Brocolli",
+                icon:dinner
+            },
+            {
                 title:"Second oral session",
                 description:"Session with quick talks",
-                time:"12:45-14:00",
+                time:"15:00-16:20",
                 speaker:"Multiple speakers",
                 icon:null_icon
             },
             {
-                title:"Lunch break",
-                description:"Attending the Genomica conference is a pathway to many abilities some consider to be unnatural.",
-                time:"14:00-16:00",
-                speaker:"Mrs Pizza & Mr. Hamburger",
-                icon:dinner
-            },
-            {
                 title:"Third poster session",
                 description:"Session where our attendents have time to individually present their recent projects and have a discussion with anyone",
-                time:"16:00-17:00",
+                time:"16:40-18:00",
                 speaker:"All attendents",
                 icon:discussion
             },
         ]
     },
     {
-        day:"25. May",
+        day:"Sunday 17th of May",
         events:[
             {
-                title:"Lecture \"The liver's sinusoidal endothelial cells - doing more than just lining the pipes!\"",
-                description:"A special lecture from prof. Peter McCourt",
-                time:"11:15-12:15",
-                speaker:"prof. Peter McCourt",
+                title:"Special Lecture opening the final day of Genomica Conference",
+                description:"A special lecture from dr Żaneta Matuszek",
+                time:"10:00-11:00",
+                speaker:"PhD Żaneta Matuszek",
                 icon:main_event
             },
             {
                 title:"Third oral session",
                 description:"Session with quick talks",
-                time:"11:15-12:15",
+                time:"11:20-12:40",
+                speaker:"Multiple speakers",
+                icon:null_icon
+            },
+            {
+                title:"Fourth poster session",
+                description:"Session where our attendents have time to individually present their recent projects and have a discussion with anyone",
+                time:"13:00-14:15",
                 speaker:"Multiple speakers",
                 icon:null_icon
             },
             {
                 title:"Lunch break",
                 description:"We invite you to our third and last poster session",
-                time:"12:30-14:00",
+                time:"14:15-15:30",
                 speaker:"Mr. Pieróg & Mrs. Kiełbasa",
                 icon:dinner
             },
             {
                 title:"Conference conclussion, award ceremony",
                 description:"Let's thank everybody for this edition of Genomica!",
-                time:"14:00-15:00",
+                time:"15:30-16:00",
                 speaker:"All attendents",
                 icon:null_icon
             },

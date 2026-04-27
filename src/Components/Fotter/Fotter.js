@@ -21,18 +21,18 @@ const social_links = [
 ]
 
 const speakers_links = [
-  // {
-  //   name: 'dr Anna Kordala',
-  //   path:"https://www.fsma.pl/osoba/anna-kordala/"
-  // },
-  // {
-  //   name: 'prof. A. Valance Washington',
-  //   path: "https://oakland.edu/biology/directory/washington/"
-  // },
-  // {
-  //   name:'prof. Peter McCourt',
-  //   path:'https://en.uit.no/ansatte/person?p_document_id=41934'
-  // },
+  {
+    name: 'Ondřej Štěpánek',
+    path:"https://orcid.org/0000-0002-2735-3311"
+  },
+  {
+    name: 'Mostafa Bakhti',
+    path: "https://www.helmholtz-munich.de/en/idr/mostafa-bakhti"
+  },
+  {
+    name:'Żaneta Matuszek',
+    path:'https://www.researchgate.net/profile/Zaneta-Matuszek'
+  },
 ];
 
 const uj_links = [

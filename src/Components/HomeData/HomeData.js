@@ -19,6 +19,9 @@ import img_2019_6 from "../../Assets/past_editions/e_2023_6.jpg";
 import Sponsor from '../Sponsor/Sponsor';
 import aa_bio from '../../Assets/program/sponsor_aa_biotechnology_2.png'
 import lab_jot from "../../Assets/program/LabJOT.jpg"
+import biocelt from "../../Assets/program/bioceltix.jpg"
+import linegal from "../../Assets/program/linegal.png"
+import genomed from "../../Assets/program/genomed.jpg"
 
 export default function HomeData() {
   return (
@@ -33,6 +36,9 @@ export default function HomeData() {
             <div className='Sponsors-List'>
               <Sponsor title={'A&A Biotechnology'} image={aa_bio} link="https://aabiot.com" />
               <Sponsor title={'Lab-JOT'} image={lab_jot} link="https://www.labjot.com/" />
+              <Sponsor title={'Bioceltix'} image={biocelt} link="https://bioceltix.com/" />
+              <Sponsor title={'Linegal Chemicals'} image={linegal} link="https://linegal.pl/" />
+              <Sponsor title={'Genomed'} image={genomed} link="https://www.genomed.pl/" />
               {/* <Sponsor title={'Eppendorf'} image={ependorf} link="https://www.eppendorf.com" /> */}
               {/* <Sponsor title='KNSB InSilico' image={inSilico} link="https://insilico.knsb.pl" /> */}
             </div>
