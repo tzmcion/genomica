@@ -1,6 +1,7 @@
 import null_icon from '../Assets/program/event.png';
 import main_event from '../Assets/program/main.png';
 import discussion from '../Assets/program/discussion.png';
+import diamond from "../Assets/program/diamond.png"
 import dinner from '../Assets/program/dinner.png';
 
 const Program = [
@@ -22,15 +23,15 @@ const Program = [
                 icon:null_icon
             },
             {
-                title:"Inaugural lecture",
+                title:"Inaugural lecture: \“Revisiting the importance of LCK in T-cell responses\"",
                 description:"Opening of the conference finishes with a special lecture from Ondrej Stepanek",
                 time:"14:45-15:45",
                 speaker:"PhD Ondrej Stepanek",
                 icon:main_event
             },
             {
-                title:"Genomed presentation",
-                description:"A quick word from our partner - Genomed",
+                title:"Genomed presentation: \"NGS sequencing in microbiome analysis - comparison of available sequencing approaches using the example of V3-V4 16S rDNA metabarcoding service at Genomed S.A.\"",
+                description:"NGS sequencing in microbiome analysis - comparison of available sequencing approaches using the example of V3-V4 16S rDNA metabarcoding service at Genomed S.A.",
                 time:"15:45-16:00",
                 speaker:"Genomed",
                 icon:null_icon
@@ -55,14 +56,14 @@ const Program = [
         day:"Saturday 16th of May",
         events:[
             {
-                title:"Special lecture opening the 2-nd day of conference",
+                title:"Special lecture: \"Decoding β-Cell development & function: Paving the way for novel diabetes treatments\"",
                 description:"A special lecture from Dr Mostafa Bakhti",
                 time:"10:00-11:00",
                 speaker:"PhD Mostafa Bakhti",
                 icon:main_event
             },
             {
-                title:"Bioceltix presentation",
+                title:"Bioceltix presentation: \"Veterinary Biotechnology - Stem cell-based therapies at a turning point\”",
                 description:"A quick word from our partner - Bioceltix",
                 time:"11:00-11:20",
                 speaker:"Bioceltix",
@@ -96,13 +97,20 @@ const Program = [
                 speaker:"All attendents",
                 icon:discussion
             },
+            {
+                title:"Social event at Bracka 4",
+                description:"Bracka 4 is one of those spots everyone just ends up knowing. Tucked inside a historic townhouse just off the Main Square, it's been a meeting point for locals and people passing through Kraków for over 15 years.",
+                time:"19:00-Midnight",
+                speaker:"Everyone!",
+                icon:diamond
+            },
         ]
     },
     {
         day:"Sunday 17th of May",
         events:[
             {
-                title:"Special Lecture opening the final day of Genomica Conference",
+                title:"Special Lecture: \"Targeted Base Editing Strategies for Neurological Disease\"",
                 description:"A special lecture from dr Żaneta Matuszek",
                 time:"10:00-11:00",
                 speaker:"PhD Żaneta Matuszek",
