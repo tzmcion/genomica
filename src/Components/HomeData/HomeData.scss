@@ -1,6 +1,7 @@
 .HomeData{
     position: relative;
-    height:600px;
+    min-height: 600px;
+    height: fit-content;
     padding-top: 30px;
     &::after{
         content: '';
@@ -17,11 +18,14 @@
         width:1440px;
         margin: 0px auto;
         height:auto;
+        transform: translateX(-30px);
         .Sponsors-List{
             display: flex;
+            justify-content: center;
             flex-direction: row;
             width: 100%;
             margin: 10px auto;
+            flex-wrap: wrap;
             gap: 20px;
         }
         h1{
@@ -215,7 +219,7 @@
 
 @media only screen and (max-width:900px){
     .HomeData{
-        height: 800px;
+        height: fit-content;
         .HomeData-Register{
             width: 100%;
             h1{
@@ -224,7 +228,9 @@
             }
             .Sponsors-List{
                 width: 100%;
-                transform: scale(0.5);
+                transform: scale(0.75) translateY(-10%);
+                display: flex;
+                flex-direction: row;
                 margin: 0;
                 padding: 0;
             }

@@ -22,23 +22,31 @@ import kn from "../../Assets/program/kobiety_nauki.png"
 import ptb from "../../Assets/program/ptb.jpg"
 import biotechn from "../../Assets/program/biotechnologia_pl.jpg"
 import biocom from "../../Assets/program/bioinfopl1.png"
+import revvity from "../../Assets/program/revity.jpg"
 
 export default function Sponsors() {
   return (
     <div className='Sponsors'>
       <TitleComponent>
-        <h1>Our Partners</h1>
+        <h1>Our Sponsors and Partners</h1>
         <h2>Who is supporting us</h2>
         <h3>It is hard to create anything special without contribution of many people.
             Here are our main sponsors and partners in this years edition of Genomica.
         </h3>
       </TitleComponent>
       <div className='Sponsors-Listt'>
-        <Sponsor title={'Genomed'} image={genomed} link="https://www.genomed.pl/" />
         <Sponsor title={'Bioceltix'} image={biocelt} link="https://bioceltix.com/" />
+        <Sponsor title={'Revvity'} image={revvity} link="https://www.revvity.com/" />
+        <Sponsor title={'Genomed'} image={genomed} link="https://www.genomed.pl/" />
         <Sponsor title={'A&A Biotechnology'} image={aa_bio} link="https://aabiot.com" />
         <Sponsor title={'Linegal Chemicals'} image={linegal} link="https://linegal.pl/" />
         <Sponsor title={'Lab-JOT'} image={lab_jot} link="https://www.labjot.com/" />
+        <br></br>
+        <TitleComponent>
+          <h1>&nbsp;</h1>
+          <h2>Our Partners:</h2>
+          <h3>Big thanks to our partners who helped us with the promotion and preparation!</h3>
+        </TitleComponent>
         <Sponsor title={'FULBRIGHT'} image={fullbright} link="https://fulbright.edu.pl/home/" />
         <Sponsor title={'Forum Akademickie'} image={forum} link="https://forumakademickie.pl/" />
         <Sponsor title={'Polonium Foundation'} image={polonium} link="https://poloniumfoundation.org/" />

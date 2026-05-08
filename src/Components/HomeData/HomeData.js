@@ -22,6 +22,7 @@ import lab_jot from "../../Assets/program/LabJOT.jpg"
 import biocelt from "../../Assets/program/bioceltix.jpg"
 import linegal from "../../Assets/program/linegal.png"
 import genomed from "../../Assets/program/genomed.jpg"
+import revvity from "../../Assets/program/revity.jpg"
 
 export default function HomeData() {
   return (
@@ -34,11 +35,12 @@ export default function HomeData() {
             </div>
             <h1>Our partners for 2026th edition:</h1>
             <div className='Sponsors-List'>
+              <Sponsor title={'Genomed'} image={genomed} link="https://www.genomed.pl/" />
+              <Sponsor title={'Revvity'} image={revvity} link="https://www.revvity.com/" />
               <Sponsor title={'A&A Biotechnology'} image={aa_bio} link="https://aabiot.com" />
               <Sponsor title={'Lab-JOT'} image={lab_jot} link="https://www.labjot.com/" />
               <Sponsor title={'Bioceltix'} image={biocelt} link="https://bioceltix.com/" />
               <Sponsor title={'Linegal Chemicals'} image={linegal} link="https://linegal.pl/" />
-              <Sponsor title={'Genomed'} image={genomed} link="https://www.genomed.pl/" />
               {/* <Sponsor title={'Eppendorf'} image={ependorf} link="https://www.eppendorf.com" /> */}
               {/* <Sponsor title='KNSB InSilico' image={inSilico} link="https://insilico.knsb.pl" /> */}
             </div>
